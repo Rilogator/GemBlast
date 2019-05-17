@@ -1,9 +1,4 @@
-# logs
-errors.txt
-log.txt
-
-# asset folders
-game/cache/
-game/gui/
-game/images/
-game/saves/
+cache/
+gui/
+images/
+saves/
