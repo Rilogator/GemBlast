@@ -1,0 +1,1 @@
+# This script contain definitions for image files
