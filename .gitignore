@@ -1,4 +1,9 @@
-cache/
-gui/
-images/
-saves/
+# logs
+errors.tct
+log.txt
+
+# assets
+game/cache/
+game/gui/
+game/images/
+game/saves/
