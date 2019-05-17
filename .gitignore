@@ -1,4 +1,4 @@
-/cache
-/gui
-/images
-/saves
+game/cache/
+game/gui/
+game/images/
+game/saves/
