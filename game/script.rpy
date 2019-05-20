@@ -4,8 +4,7 @@ define g = Character("Garnet", who_color="#CD3081", what_prefix='"', what_suffix
 define a = Character("Amethyst", who_color="#B898CA", what_prefix='"', what_suffix='"')
 
 # Background
-
-# The game starts here.
+## A list of backgrounds should go here
 
 label start:
 
@@ -23,27 +22,29 @@ label start:
 
     call prologue
 
-    p "What if Steven's penis..."
-
-    p "gets in the way!?"
+    call chapter_1
 
     menu:
-        "What if Steven's Penis (tm) gets in the way?"
+        "Do you like birds or do you like trash?"
 
-        "It won't":
-            show garnet determined
+        "Gimme da Poil":
+            show pearl happy
 
-            g "It won't"
-            
-        "Who?":
-            show amethyst baked
+            p "Penis? I mean- Steven?"
+            call pearl_1
 
-            a "Who?"
+        "I want that purple marshmallow":
+            show amethyst devious
 
-        "Stop":
-            "Guys... stop..."
-            jump home
+            a "Get in these guts"
+            call amethyst_1
 
-label home:
-    p "Steven's."
-    return
+    call chapter_2
+
+    call chapter_3
+
+    call chapter_4
+
+    call opal_1
+
+return
