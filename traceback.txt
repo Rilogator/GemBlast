@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 34, in script call
+    call epilogue
+  File "game/script.rpy", line 34, in script call
+    call epilogue
+ScriptError: could not find label 'epilogue'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 34, in script call
+    call epilogue
+  File "D:\My Shit\Game Development Projects\RenPy\renpy-7.2.2-sdk\renpy\ast.py", line 1422, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 34, in script call
+    call epilogue
+  File "D:\My Shit\Game Development Projects\RenPy\renpy-7.2.2-sdk\renpy\script.py", line 886, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'epilogue'.
+
+Windows-8-6.2.9200
+Ren'Py 7.2.2.491
+Gem Blast 0.1
+Mon May 20 21:46:43 2019
