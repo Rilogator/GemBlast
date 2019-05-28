@@ -1,4 +1,5 @@
 label chapter_1:
+    scene bg house
     "This is chapter 1's dialouge"
     
     menu pearl_chores:
