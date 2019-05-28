@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 46, in script call
-    call prologue
-  File "game/Scenes/prologue.rpy", line 39, in script
-    P "Oh good we're right on schedule."
-Exception: Sayer 'P' is not defined.
+  File "renpy/common/00start.rpy", line 224, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/disclaimer.rpy", line 2, in script
+    text "finna nut?"
+Exception: Sayer 'text' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 46, in script call
-    call prologue
-  File "game/Scenes/prologue.rpy", line 39, in script
-    P "Oh good we're right on schedule."
+  File "renpy/common/00start.rpy", line 224, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/disclaimer.rpy", line 2, in script
+    text "finna nut?"
   File "D:\My Shit\Game Development Projects\RenPy\renpy-7.2.2-sdk\renpy\ast.py", line 664, in execute
     who = eval_who(self.who, self.who_fast)
   File "D:\My Shit\Game Development Projects\RenPy\renpy-7.2.2-sdk\renpy\ast.py", line 564, in eval_who
     raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'P' is not defined.
+Exception: Sayer 'text' is not defined.
 
 Windows-8-6.2.9200
 Ren'Py 7.2.2.491
-Gem Blast 0.1
-Tue May 28 03:03:08 2019
+Gem Blast 0.0.3
+Tue May 28 16:43:34 2019
