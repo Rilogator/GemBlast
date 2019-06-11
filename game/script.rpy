@@ -11,6 +11,8 @@ define a = Character("Amethyst", who_color="#B898CA", what_prefix='"', what_suff
 # Background
 ## A list of backgrounds should go here
 
+#bepis
+
 label start:
 
     # Show a background. This uses a placeholder by default, but you can
