@@ -13,6 +13,8 @@ define a = Character("Amethyst", who_color="#B898CA", what_prefix='"', what_suff
 
 label start:
 
+    # Beepis
+
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
