@@ -1,5 +1,5 @@
 label chapter_1:
-    scene bg house
+    scene bg bedroom
     "The next morning..."
     show per surprised
     p "Um..."

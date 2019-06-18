@@ -1,6 +1,6 @@
 label prologue:
 
-    scene bg house exterior
+    scene bg beachhouse wide
 
     "It's been a while, but after being away for too long you decide to visit your old friends."
     "You find yourself in your home town of Beach City, a shining shoreline town."
@@ -32,7 +32,7 @@ label prologue:
 
     "The strongest of the gems takes your things into the house, and the rest of you follow suit."
 
-    scene bg house interior
+    scene bg beachhouse interior
 
     "You get settled in quickly with four you helping along."
     show per neutral
