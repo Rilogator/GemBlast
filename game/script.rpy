@@ -15,11 +15,7 @@ define a = Character("Amethyst", who_color="#B898CA", what_prefix='"', what_suff
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
-    scene bg character creation
+    scene bg sky
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
