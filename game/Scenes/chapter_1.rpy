@@ -39,7 +39,6 @@ label chapter_1:
         "You're gently squeezed between the arm rest of the couch and Amethyst's soft body."
         a "What are we watching then?"
 
-        # Might need to change this to a jump to label.
             menu tv_channel:
                 "You have the remote after all. What will you watch?"
 
