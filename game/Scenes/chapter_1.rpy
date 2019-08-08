@@ -39,8 +39,8 @@ label chapter_1:
         "You're gently squeezed between the arm rest of the couch and Amethyst's soft body."
         a "What are we watching then?"
 
-            menu tv_channel:
-                "You have the remote after all. What will you watch?"
+        menu tv_channel:
+            #"You have the remote after all. What will you watch?"
 
                 "Something with action.":
                     "You want to see how your favorite dark fantasy show ended."
@@ -65,7 +65,8 @@ label chapter_1:
                     "Well more than sizable, massive really."
                     "You can't help but get more than a little turned on, trapped as you are."   
 
-            "You watch the program well past noon. Amethyst gets up to stretch and wonders off to find something else to sleep on."
+        "You watch the program well past noon. Amethyst gets up to stretch and wonders off to find something else to sleep on."
+        jump afternoon
     return
 
     label afternoon:
@@ -74,10 +75,10 @@ label chapter_1:
             "You decide that you're going to..."
             # Something that gets your horny, scrap this beach idea.
             "Head to the beach":
-            m "It was really hot earlier today so now's a great chance to cool off."
-            "You set out to the beach and hit the waves."
-            "It feels great to go swimming again and breath the salted air."
-            "While you're having your day in the sun, you notice "
+                m "It was really hot earlier today so now's a great chance to cool off."
+                "You set out to the beach and hit the waves."
+                "It feels great to go swimming again and breath the salted air."
+                "While you're having your day in the sun, you notice "
                 
             "Hit the arcade":
                 "You waste a lot of time and even more quarters."
