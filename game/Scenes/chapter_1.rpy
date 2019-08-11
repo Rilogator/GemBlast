@@ -1,4 +1,7 @@
 label chapter_1:
+    $ pearlHelped = False
+    $ amyHangout = False
+    
     scene bg bedroom
     "The next morning..."
     show per surprised
@@ -17,12 +20,12 @@ label chapter_1:
         m "Today I will..."
 
         "Help Pearl clean up around the house.":
-            $ PearlHelped = True
+            $ pearlHelped = True
             "While Pearl is out trying to clean the beach front, you decide to be a good boy and keep things inside tidy for her."
             jump afternoon
 
         "Watch some television.":
-            $ AmyHangout = True
+            $ amyHangout = True
             jump amyTv
             
     return
@@ -56,7 +59,6 @@ label chapter_1:
                     "You and Amethyst have a good time watching TV."
 
                 "Boring documentary.":
-                    $ horny = True
                     "Something about this program catches your eye. It's a nature doc about the mating habits of certain beetles."
                     "Out of politeness, Amethyst tries to pay attention, but the effort takes too much out of her."
                     "She was already leaning on you a bit, and now she's dozed off."
@@ -73,22 +75,17 @@ label chapter_1:
         "After grabbing some lunch, you think about what to do in the latter half of the day."
         menu afternoon_activities:
             "You decide that you're going to..."
-            # Something that gets your horny, scrap this beach idea.
-            "Head to the beach":
-                m "It was really hot earlier today so now's a great chance to cool off."
-                "You set out to the beach and hit the waves."
-                "It feels great to go swimming again and breath the salted air."
-                "While you're having your day in the sun, you notice "
-                
-            "Hit the arcade":
-                "You waste a lot of time and even more quarters."
-                "Well spent, you would say."
-                "You get the high score in Starwyrm, your favorite space shooter."
+            "Do some more hard work":
+                if pearlHelped == True:
+                    jump pearl_1
+                elif amyHangout == True:
+                    jump amethyst_1
+                return
 
-            # Have this option only appear if you're horny.
-            "Head to the garage to try and get some 'private time'":
-                "Having Amethsyst all over you like butter on a pancake really has you pretty distracted."
-                "Knowing that you'll never get your privacy in the Beah House, you decide to head to the garage instead."
-                "The Gems never come in here anyway, since its wear you store all your 'human junk'."
-                "Speaking of which, your hardon demands attention, straining in your pants."
+            "Play some gamestation":
+                "You play your gamestation."
+                "Playing a VN just to pretend to play videogames is kinda sad."
+                "You end up putting the controller down and contemplate how you wasted your day."
+                jump chapter_1
+    return
 return
