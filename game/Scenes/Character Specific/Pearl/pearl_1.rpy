@@ -1,5 +1,6 @@
 label pearl_1:
-    "Pearl helps you masturbate"
+    #Helping Pearl clean the house, you should mention some items you come across
+    #and passage of time as the sun begins to set."
     
 
 return

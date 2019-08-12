@@ -1,21 +1,21 @@
 label prologue:
 
-    scene bg beachhouse wide
+    scene bg outside day
 
     "It's been a while, but after being away for too long you decide to visit your old friends."
     "You find yourself in your home town of Beach City, a shining shoreline town."
     "As you ponder the memories you've made, three colorful figures you approach you."
     "It can only be, of course..."
 
-    show garnet happy
+    show gar at center
     show per neutral at right
     show amy neutralF at left
 
     "The Crystal Gems!"
     a "[playerName]! Welcome back buddy, we totally missed you!"
     p "Yes! Even though we know you probably don't need us worrying about you, we're still happy to see you return home safe."
-    g "I wasn't worried at all."
-    show per concerned
+    g "I wasn't worried."
+    show per embarassed
     p "Garnet!"
     a "Relax P, you know she's got the whole future thing covered."
     p "..."
@@ -32,22 +32,22 @@ label prologue:
 
     "The strongest of the gems takes your things into the house, and the rest of you follow suit."
 
-    scene bg beachhouse interior
+    scene bg house day
 
     "You get settled in quickly with four you helping along."
     show per neutral
     p "Oh good we're right on schedule."
-    show per upset
+    show per embarassed2
     p "No thanks to Amethyst..."
     show amy neutral at right
     a "Hey, I put away all the food."
     "Pearl rolls her eyes before putting on a smile as she turns to you."
     hide amy
     show per neutral
-    p "Now then, if everything is in the right place, we do have something to tell you."
+    p "Now then, before you settle in, we do have something to tell you."
     show gar at right
     show per neutralF at left
-    g "That's right."
+    g "[playerName]"
     g "I have to leave now. I know you just arrived but its an important mission. You know how it is."
 
     menu:        
@@ -79,7 +79,7 @@ label prologue:
     g "I want to see [playerName] in one piece when I get back, is that clear?"
     a "You got it, boss."
     p "I will make sure of it, no doubt about that."
-    a "Excellent. Goodbye everyone."
+    g "Excellent. Goodbye everyone."
     "Garnet makes a salute gesture with two fingers before stepping onto the warp pad."
     "Without hesitation she looks up and..."
     # Flash effect

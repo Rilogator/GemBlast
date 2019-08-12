@@ -15,7 +15,7 @@ define a = Character("Amethyst", who_color="#B898CA", what_prefix='"', what_suff
 
 label start:
 
-    scene bg sky
+    scene bg outside night
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images

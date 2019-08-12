@@ -2,14 +2,15 @@ label chapter_1:
     $ pearlHelped = False
     $ amyHangout = False
     
-    scene bg bedroom
+    scene bg house night
     "The next morning..."
-    show per surprised
+    show per embarassedN
     p "Um..."
     hide per
     m "What was that?" 
     m "Was she... watching me sleep?"
     "Probably."
+    scene bg house day
     "Anyway, the rest of the day is rather uneventful, as is the next week."
     "You spend your catching up with your old friends, asking about their adventures since you've been away."
     "They similarly ask how you've been on your break from Beach City."
@@ -33,7 +34,7 @@ label chapter_1:
     label amyTv:
         "You missed out on a lot of TV while you were gone, and it's time to catch up on your shows."
         "As if summoned by this bout of laziness, Amethyst shows up."
-        a "Hey MainCharacter, whats up!"
+        a "Hey [playerName], whats up!"
         "You're a bit startled by her sudden appearance."
         m "Oh hey I was just about to watch something?"
         a "Yeah?"
