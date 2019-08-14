@@ -1,10 +1,10 @@
 # Image definitions for scene
-image i1 = "PearlScn1/1.jpg"
-image i2 = "PearlScn1/2.jpg"
-image i3 = "PearlScn1/3.jpg"
-image i4 = "PearlScn1/4.jpg"
-image i5 = "PearlScn1/5.jpg"
-image i6 = "PearlScn1/6.jpg"
+image p1 = "PearlScn1/1.jpg"
+image p2 = "PearlScn1/2.jpg"
+image p3 = "PearlScn1/3.jpg"
+image p4 = "PearlScn1/4.jpg"
+image p5 = "PearlScn1/5.jpg"
+image p6 = "PearlScn1/6.jpg"
 
 label pearl_1:
     scene bg house day
@@ -27,7 +27,7 @@ label pearl_1:
     p "Oh I read about this. Since I'm free tonight, I can help you out with that."
     p "Actually..."
 
-    show i1 with dissolve
+    show p1 with dissolve
 
     p "I have these for just this occasion!"
     "…"
@@ -40,7 +40,7 @@ label pearl_1:
     "As you're stroked to full hardness, Pearl seems satisfied with her progress."
     "She then lathers her hands with with oil and lotion, making her hands glisten in the moonlight."
 
-    show i2 with dissolve
+    show p2 with dissolve
 
     "Okay"
     "Here we go"
@@ -49,7 +49,7 @@ label pearl_1:
     "Deciding not to put her off, you keep your composure."
     "She hesitates for a moment as her hands hover around your proud member."
 
-    show i3 with dissolve
+    show p3 with dissolve
 
     "One of her hands circles around the base of your dick."
     "The other focuses on spreading lubricant around the top of your head."
@@ -62,7 +62,7 @@ label pearl_1:
     "The next, she's making a cage with her fingers and sliding them up and down."
     "Each sensation never lasts too long, as she teases you with different motions."
 
-    show i4 with dissolve
+    show p4 with dissolve
 
     "You begin to notice that you're letting out little gasps of pleasure."
     "Your hands grab at the bed sheets."
@@ -73,13 +73,13 @@ label pearl_1:
     "Your head leans back on its own"
     m "Pearl, I'm... I'm close..."
 
-    show i5 with dissolve
+    show p5 with dissolve
 
     "Oh yeah, {i}that{/i} part."
     "I would appreciate if you waited until I was out of the way [playerName]."
     "I don't appreciate being covered in those fluids you humans are so fond of"
 
-    show i6 with dissolve
+    show p6 with dissolve
 
     "Pearl's indifference about the whole situation is just the trigger to set you off."
     "You shoot a long rope of cum in her direction."
