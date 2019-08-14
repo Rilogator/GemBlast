@@ -38,16 +38,16 @@ label start:
         "Yes! Let's get on with it already!":
             "Suit yourself! Here we go..."
             
-    call prologue from _call_prologue
+    call prologue
 
-    call chapter_1 from _call_chapter_1
+    call chapter_1
 
-    call chapter_2 from _call_chapter_2
+    call chapter_2
 
-    call chapter_3 from _call_chapter_3
+    call chapter_3
 
-    call chapter_4 from _call_chapter_4
+    call chapter_4
 
-    call epilogue from _call_epilogue
+    call epilogue
 
 return
