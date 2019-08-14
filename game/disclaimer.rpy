@@ -1,4 +1,5 @@
 label splashscreen:
+    scene title 
     "finna nut?"
 # Disclaimer Information
 

@@ -17,10 +17,6 @@ label start:
 
     scene bg outside night
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
     "Welcome to our digital adventure!"
     "We're sure you'll have a wonderful time, but first we need to ask some questions."
     "Firstly, we'll need your name!"
