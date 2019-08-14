@@ -45,7 +45,7 @@ label prologue:
     hide amy
     show per neutral
     p "Now then, before you settle in, we do have something to tell you."
-    show gar at right
+    show gar at center
     show per neutralF at left
     g "[playerName]"
     g "I have to leave now. I know you just arrived but its an important mission. You know how it is."
