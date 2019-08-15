@@ -51,18 +51,66 @@ label amethyst_1:
 
     show a4 with dissolve
 
-    
+    "Your prick is quickly covered in saliva as Amethyst's tongue dutifully covers every inch it can."
+    "Her movements are sloppy and quick."
+    "You can tell she's just as impatient to get to the 'good' part as you are."
+    "After a minute of tongue bathing, Amethyst lets up to admire her handiwork."
+    "Hesitation isn't really her thing, but as she brings her pillowy lips close..."
 
     show a5 with dissolve
 
+    "...the suspense of what's to come nearly overwhelms you."
+    "Amethyst's breaths are soft and warm."
+    "Before you can say anything and ruin the moment, she lowers her mouth onto your hard cock."
+
     show a6 with dissolve
+
+    "Her lips slowly push down toward your groin before languidly making their way back to the peak of your dick."
+    "In spite of her earlier haste, she now sucks your dick with a intenful laziness."
+    "Seeing her smile with a mouth full of dick makes your member twitch."
+    "Amethyst moans, please at your reaction."
+    "Slowly she goes, up and down, never needing to stop and take a breath."
+    "Another quirk of being a gem."
+    "'Slurp'"
+    "'slurp'"
+    "..."
+    "'slurp'"
+    "After what feels like a torturous amount of time, you can't hold yourself back."
 
     show a7 with dissolve
 
+    m "Ah yeah, come on Amy!"
+    "You grab the back of her head with both hands."
+    "It's time for you to set the pace."
+    "She doesn't seem to mind anyway."
+    "You quicken into a proper face fucking, her hair bouncing around your fingers."
+    "From this angle you can see her impossible booth beneath her."
+    "With the speed you've picked up, her ass is also jiggling slightly along with your movements."
+    "Neither of you mind using Amethyst being used like this."
+    "She started it, after all."
+    
+    show a8 with dissolve
+
+    "All too soon, the pressure builds in your loins and you're ready to let loose."
+    "You're so caught in the moment you don't even bother to warn her."
+    "You just start cumming in Amethyst's heavenly mouth."
+    "She looks so pleased with herself as her relentless sucking doesn't stop."
+    "In fact, she ratchets up the vacuum a noth, her cheeks hollowing out."
+    "It seems she's determined to drain you for all your worth."
+    "Just as you start to get weak in the knees, you empty the last shot of cum down Amethyst's waiting throat."
+    "With your balls drained, you slump backward onto the couch."
+
     show a9 with dissolve
 
-    show a10 with dissolve
+    "As your eyes refocus, Amethyst shows you the product of your hard work."
 
+    show a10 with dissolve
+    a "'gulp!'"
     show a11 with dissolve
+
+    m "Amy that's gross."
+    a "Naah you love it, big guy."
+
+    "With the night finishined and your lust sated, you drift off to sleep right in the living room."
 
 return
