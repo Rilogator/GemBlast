@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/Scenes/Character Specific/Amethyst/amethyst_1.rpy", line 39: expected statement.
-    retuaa
-          ^
+File "game/disclaimer.rpy", line 3: expected statement.
+    renpy.with Pause(1,False)
+                    ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Wed Aug 14 19:18:32 2019
+Thu Aug 15 18:25:00 2019

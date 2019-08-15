@@ -18,7 +18,7 @@ define config.name = _("Gem Blast")
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.
 
-define gui.show_name = True
+define gui.show_name = False
 
 
 ## The version of the game.
@@ -31,7 +31,8 @@ define config.version = "1.0.0"
 
 define gui.about = _p("""
 
-Lorum ipsum chungus bungus
+This is a fan project that is in no way intended for monetary gain.
+We hope that people enjoy our game, and keep a look out for our future projects!
 
 """)
 
