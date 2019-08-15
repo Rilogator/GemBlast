@@ -21,6 +21,8 @@ label pearl_1:
     "That was very nice of you."
     "You go off and relax a bit after running errands all day."
 
+    scene bg house night
+
     "That night..."
     "Since you were busy all day and its been ages since you had any private time, you decide its high time to fap."
     "Right as you're getting familiar with yourself, you hear a creak at the door."
