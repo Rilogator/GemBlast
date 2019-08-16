@@ -289,18 +289,19 @@ style quick_button_text:
 ## to other menus, and to start the game.
 
 screen navigation():
-    hbox:
-        yalign 1.0
+    if main_menu:
+        hbox:
+            yalign 1.0
 
-        imagebutton:
-            idle "dk_icon.png"
-            hover "dk_icon_active.png"
-            action OpenURL("https://www.patreon.com/Digitalkaiju")
+            imagebutton:
+                idle "dk_icon.png"
+                hover "dk_icon_active.png"
+                action OpenURL("https://www.patreon.com/Digitalkaiju")
 
-        imagebutton:
-            idle "rilo_icon.png"
-            hover "rilo_icon_active.png"
-            action OpenURL("https://rilogator.itch.io/")
+            imagebutton:
+                idle "rilo_icon.png"
+                hover "rilo_icon_active.png"
+                action OpenURL("https://rilogator.itch.io/")
 
     vbox:
         style_prefix "navigation"
