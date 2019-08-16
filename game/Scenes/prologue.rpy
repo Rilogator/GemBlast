@@ -8,23 +8,28 @@ label prologue:
     "It can only be, of course..."
 
     show gar at center
-    show per neutral at right
-    show amy neutralF at left
+    show pearl neutral 1 at right
+    show amethyst neutral at left
 
     "The Crystal Gems!"
+    show amethyst happy
     a "[playerName]! Welcome back buddy, we totally missed you!"
+    show amethyst neutral
+    show pearl happy 1
     p "Yes! Even though we know you probably don't need us worrying about you, we're still happy to see you return home safe."
     g "I wasn't worried."
-    show per embarassed
+    show pearl embarrassed 1
     p "Garnet!"
     a "Relax P, you know she's got the whole future thing covered."
     p "..."
-    show per neutral
+    show pearl embarrassed 2
     p "I suppose you are right. [playerName] is capable of handling himself."
     g "You know he is. Welcome back, [playerName]."
+    show pearl happy 1
     p "Welcome back indeed!"
 
     "You let out a joyful laugh, and the gems join in as well."
+    show amethyst happy
     "It is good to see them after such a long time, and they haven't changed one bit."
     "Garnet shows off her massive strength by lifting all your things above her head with one hand."
 

@@ -241,7 +241,6 @@ style choice_button_text is default:
 ## menus.
 
 screen quick_menu():
-
     ## Ensure this appears on top of other screens.
     zorder 100
 
@@ -290,6 +289,12 @@ style quick_button_text:
 ## to other menus, and to start the game.
 
 screen navigation():
+    imagebutton:
+        yalign 1.0
+
+        idle "dk_icon.png"
+        hover "dk_icon_active.png"
+        action OpenURL("https://www.patreon.com/Digitalkaiju")
 
     vbox:
         style_prefix "navigation"

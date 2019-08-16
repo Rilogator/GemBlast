@@ -14,6 +14,8 @@ label chapter_1:
     "Anyway, the rest of the day is rather uneventful, as is the next week."
     "You spend your catching up with your old friends, asking about their adventures since you've been away."
     "They similarly ask how you've been on your break from Beach City."
+
+    label daily_reset:
     "At the start of a new day, you decide to do something productive."
     "But what?"
 
@@ -34,10 +36,14 @@ label chapter_1:
     label amyTv:
         "You missed out on a lot of TV while you were gone, and it's time to catch up on your shows."
         "As if summoned by this bout of laziness, Amethyst shows up."
+        show amethyst neutral
         a "Hey [playerName], whats up!"
         "You're a bit startled by her sudden appearance."
-        m "Oh hey I was just about to watch something?"
+        m "Oh hey." 
+        m "I was just about to watch something."
+        show amethyst flirty
         a "Yeah?"
+        hide amethyst with dissolve
         "She sits her big bottom down on the couch next to you, and you notice she's kind of close."
         "Amethyst has always been a bit wide at the hips, not that you're complaining."
         "You're gently squeezed between the arm rest of the couch and Amethyst's soft body."
@@ -87,6 +93,6 @@ label chapter_1:
                 "You play your gamestation."
                 "Playing a VN just to pretend to play videogames is kinda sad."
                 "You end up putting the controller down and contemplate how you wasted your day."
-                jump chapter_1
+                jump daily_reset
     return
 return

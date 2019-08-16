@@ -16,13 +16,18 @@ label amethyst_1:
 
     "You spent most of the day watching TV and figure its time to do your share of the chores."
     "Right when the sun goes down, Amethyst suspiciously makes her presence known."
+    show amethyst happy night
     a "Hey tough guy."
+    show amethyst neutral night
     m "Ah!"
     m "Geez, Amy, you scared me."
+    show amethyst flirty night
     a "I know you were looking before."
+    show amethyst neutral night
     "You start to sweat."
     m "Uh, what do you mean?"
     "She looks around just like she always does when she doesn't want to get caught doing something"
+    show amethyst flirty night
     a "Don't be dumb, let's get into it"
     m "No really I don't know what you're-"
 
@@ -109,8 +114,9 @@ label amethyst_1:
     show a11 with dissolve
 
     m "Amy that's gross."
-    a "Naah you love it, big guy."
+    a "Nah you love it, big guy."
 
+    scene bg house night
     "With the night finishined and your lust sated, you drift off to sleep right in the living room."
 
 return

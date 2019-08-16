@@ -34,6 +34,7 @@ define gui.about = _p("""
 This is a fan project that is in no way intended for monetary gain.
 We hope that people enjoy our game, and keep a look out for our future projects!
 
+Music was obtained {a=https://opengameart.org/content/next-to-you}here{/a} without permission.
 """)
 
 
@@ -65,7 +66,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "Next to You.mp3"
 
 
 ## Transitions #################################################################

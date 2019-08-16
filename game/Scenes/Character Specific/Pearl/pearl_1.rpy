@@ -12,13 +12,17 @@ label pearl_1:
     "You set in to cleaning up around the house, which mainly means cleaning up after yourself."
     "Laundry, sweeping, mopping."
     "As you're close to finishing, Pearl comes in from her patrol."
+    show pearl embarrassed 1
     p "[playerName]!"
     p "You didn't have to go through all that trouble!"
     m "Ah well I had nothing to do today and wanted to return the favor."
+    show pearl embarrassed 2
     "You can see that she's struggling to look grateful."
     "It occurs to you she probably has nothing to do today now that you've finished the chores."
+    show pearl embarrassed 1
     p "Oh well um, thank you [playerName]."
     "That was very nice of you."
+    hide pearl with dissolve
     "You go off and relax a bit after running errands all day."
 
     scene bg house night
@@ -26,7 +30,10 @@ label pearl_1:
     "That night..."
     "Since you were busy all day and its been ages since you had any private time, you decide its high time to fap."
     "Right as you're getting familiar with yourself, you hear a creak at the door."
+
+    show pearl happy 1 night with dissolve
     p "Oh I read about this. Since I'm free tonight, I can help you out with that."
+    show pearl flirty 1 night
     p "Actually..."
 
     show p1 with dissolve
