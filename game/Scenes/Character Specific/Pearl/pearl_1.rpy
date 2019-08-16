@@ -5,6 +5,7 @@ image p3 = "PearlScn1/3.jpg"
 image p4 = "PearlScn1/4.jpg"
 image p5 = "PearlScn1/5.jpg"
 image p6 = "PearlScn1/6.jpg"
+image p7 = "PearlScn1/7.jpg"
 
 label pearl_1:
     scene bg house day
@@ -94,7 +95,16 @@ label pearl_1:
     "You shoot a long rope of cum in her direction."
     "Her surprise at being caught mid-sentence foils any chance at it missing her."
     "Before she has a chance to recover, you're already letting loose multiple smaller spurts."
+
+    show p7 with dissolve
+
     "Her hands are absolutely covered in your semen, and a long trail of it hangs down from her porcelain face."
-    "Ewww"
+    p "Uck, it's everywhere"
+    m "Eh sorry, Pearl."
+    m "I guess you did too good of a job, huh?"
+    "You laugh nervously as Pearl gets up to leave."
+
+    scene bg house night
+    "She walks out of your room to clean herself up, but not before you spot a warm smile."
 
 return

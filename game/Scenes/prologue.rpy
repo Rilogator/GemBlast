@@ -1,3 +1,6 @@
+# Effects
+define flash = Fade(0.1, 0.0, 0.5, color="#fff")
+
 label prologue:
 
     scene bg outside day
@@ -87,8 +90,14 @@ label prologue:
     g "Excellent. Goodbye everyone."
     "Garnet makes a salute gesture with two fingers before stepping onto the warp pad."
     "Without hesitation she looks up and..."
-    # Flash effect
-    hide gar
+    scene bg house day
+    with flash
+
+    show per neutralF at left
+    show amy neutral at right
+    
     "She's gone! To parts unknown, leaving you with the other two Crystal Gems."
+    "They help you get settled in and reacquainted with the old beach house."
+    "It definitely feels good to be back home."
 
 return
