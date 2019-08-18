@@ -3,6 +3,8 @@
 While loading <'Image' u'AmethystScn1/1.jpg'>:
   File "game/script.rpy", line 39, in script call
     call chapter_1 from _call_chapter_1
+  File "game/scripts/Character Specific/Amethyst/amethyst_1.rpy", line 36, in script
+    m "..."
 IOError: Couldn't find file 'AmethystScn1/1.jpg'.
 
 -- Full Traceback ------------------------------------------------------------
@@ -10,14 +12,20 @@ IOError: Couldn't find file 'AmethystScn1/1.jpg'.
 Full traceback:
   File "game/script.rpy", line 39, in script call
     call chapter_1 from _call_chapter_1
-  File "game/scripts/Character Specific/Amethyst/amethyst_1.rpyc", line 34, in script
-    ?�2X�H�Mi�	��*�]��8����
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 1387, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\exports.py", line 1592, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 2248, in do_with
-    clear=clear)
+  File "game/scripts/Character Specific/Amethyst/amethyst_1.rpy", line 36, in script
+    m "..."
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 706, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\exports.py", line 1336, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\character.py", line 1139, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\character.py", line 842, in do_display
+    **display_args)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\character.py", line 591, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ui.py", line 295, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 2699, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 3191, in interact_core
@@ -28,10 +36,6 @@ Full traceback:
   File "render.pyx", line 247, in renpy.display.render.render
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\layout.py", line 722, in render
     surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 154, in renpy.display.render.render
-  File "render.pyx", line 247, in renpy.display.render.render
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\transition.py", line 361, in render
-    top = render(self.new_widget, width, height, st, at)
   File "render.pyx", line 154, in renpy.display.render.render
   File "render.pyx", line 247, in renpy.display.render.render
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\layout.py", line 722, in render
@@ -63,4 +67,4 @@ IOError: Couldn't find file 'AmethystScn1/1.jpg'.
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
 Beach City Nights 1.1.0
-Sun Aug 18 15:37:36 2019
+Sun Aug 18 16:27:19 2019

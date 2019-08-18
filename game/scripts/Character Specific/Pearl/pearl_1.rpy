@@ -1,11 +1,11 @@
 # Image definitions for scene
-image p1 = "PearlScn1/1.jpg"
-image p2 = "PearlScn1/2.jpg"
-image p3 = "PearlScn1/3.jpg"
-image p4 = "PearlScn1/4.jpg"
-image p5 = "PearlScn1/5.jpg"
-image p6 = "PearlScn1/6.jpg"
-image p7 = "PearlScn1/7.jpg"
+image p1 = "Lewds/PearlScn1/1.jpg"
+image p2 = "Lewds/PearlScn1/2.jpg"
+image p3 = "Lewds/PearlScn1/3.jpg"
+image p4 = "Lewds/PearlScn1/4.jpg"
+image p5 = "Lewds/PearlScn1/5.jpg"
+image p6 = "Lewds/PearlScn1/6.jpg"
+image p7 = "Lewds/PearlScn1/7.jpg"
 
 label pearl_1:
     scene bg house day
@@ -13,14 +13,14 @@ label pearl_1:
     "You set in to cleaning up around the house, which mainly means cleaning up after yourself."
     "Laundry, sweeping, mopping."
     "As you're close to finishing, Pearl comes in from her patrol."
-    show pearl embarrassed 1
+    show pearl embarrassed
     p "[playerName]!"
     p "You didn't have to go through all that trouble!"
     m "Ah well I had nothing to do today and wanted to return the favor."
-    show pearl embarrassed 2
+    show pearl embarrassed alt
     "You can see that she's struggling to look grateful."
     "It occurs to you she probably has nothing to do today now that you've finished the chores."
-    show pearl embarrassed 1
+    show pearl embarrassed
     p "Oh well um, thank you [playerName]."
     "That was very nice of you."
     hide pearl with dissolve
@@ -32,9 +32,9 @@ label pearl_1:
     "Since you were busy all day and its been ages since you had any private time, you decide its high time to fap."
     "Right as you're getting familiar with yourself, you hear a creak at the door."
 
-    show pearl happy 1 night with dissolve
+    show pearl happy alt night with dissolve
     p "Oh I read about this. Since I'm free tonight, I can help you out with that."
-    show pearl flirty 1 night
+    show pearl flirty alt night
     p "Actually..."
 
     show p1 with dissolve

@@ -1,15 +1,15 @@
-# Image defitinitions for scene
-image a1 = "AmethystScn1/1.jpg"
-image a2 = "AmethystScn1/2.jpg"
-image a3 = "AmethystScn1/3.jpg"
-image a4 = "AmethystScn1/4.jpg"
-image a5 = "AmethystScn1/5.jpg"
-image a6 = "AmethystScn1/6.jpg"
-image a7 = "AmethystScn1/7.jpg"
-image a8 = "AmethystScn1/8.jpg"
-image a9 = "AmethystScn1/9.jpg"
-image a10 = "AmethystScn1/10.jpg"
-image a11 = "AmethystScn1/11.jpg"
+# Image definitions for scene
+image a1 = "Lewds/AmethystScn1/1.jpg"
+image a2 = "Lewds/AmethystScn1/2.jpg"
+image a3 = "Lewds/AmethystScn1/3.jpg"
+image a4 = "Lewds/AmethystScn1/4.jpg"
+image a5 = "Lewds/AmethystScn1/5.jpg"
+image a6 = "Lewds/AmethystScn1/6.jpg"
+image a7 = "Lewds/AmethystScn1/7.jpg"
+image a8 = "Lewds/AmethystScn1/8.jpg"
+image a9 = "Lewds/AmethystScn1/9.jpg"
+image a10 = "Lewds/AmethystScn1/10.jpg"
+image a11 = "Lewds/AmethystScn1/11.jpg"
 
 label amethyst_1:
     scene bg house night
@@ -93,7 +93,7 @@ label amethyst_1:
     "With the speed you've picked up, her ass is also jiggling slightly along with your movements."
     "Neither of you mind Amethyst being used like this."
     "She started it, after all."
-    
+
     show a8 with dissolve
 
     "All too soon, the pressure builds in your loins and you're ready to let loose."
