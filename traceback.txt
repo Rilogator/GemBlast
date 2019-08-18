@@ -1,23 +1,23 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'rilo_icon.png'>:
-IOError: Couldn't find file 'rilo_icon.png'.
+While loading <'Image' u'AmethystScn1/1.jpg'>:
+  File "game/script.rpy", line 39, in script call
+    call chapter_1 from _call_chapter_1
+IOError: Couldn't find file 'AmethystScn1/1.jpg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 912, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2004, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ui.py", line 295, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "game/script.rpy", line 39, in script call
+    call chapter_1 from _call_chapter_1
+  File "game/scripts/Character Specific/Amethyst/amethyst_1.rpyc", line 34, in script
+    ?�2X�H�Mi�	��*�]��8����
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 1387, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\exports.py", line 1592, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 2248, in do_with
+    clear=clear)
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 2699, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 3191, in interact_core
@@ -30,30 +30,24 @@ Full traceback:
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 154, in renpy.display.render.render
   File "render.pyx", line 247, in renpy.display.render.render
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\transition.py", line 361, in render
+    top = render(self.new_widget, width, height, st, at)
   File "render.pyx", line 154, in renpy.display.render.render
   File "render.pyx", line 247, in renpy.display.render.render
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\layout.py", line 722, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 154, in renpy.display.render.render
   File "render.pyx", line 247, in renpy.display.render.render
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\screen.py", line 675, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 154, in renpy.display.render.render
-  File "render.pyx", line 247, in renpy.display.render.render
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\layout.py", line 722, in render
     surf = render(child, width, height, cst, cat)
   File "render.pyx", line 154, in renpy.display.render.render
   File "render.pyx", line 247, in renpy.display.render.render
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\layout.py", line 883, in render
-    surf = render(d, rw, height - y, cst, cat)
-  File "render.pyx", line 154, in renpy.display.render.render
+  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
   File "render.pyx", line 247, in renpy.display.render.render
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\behavior.py", line 763, in render
-    rv = super(Button, self).render(width, height, st, at)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\layout.py", line 1127, in render
-    st, at)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\image.py", line 500, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\image.py", line 306, in wrap_render
+    rend = render(child, w, h, st, at)
   File "render.pyx", line 154, in renpy.display.render.render
   File "render.pyx", line 247, in renpy.display.render.render
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\im.py", line 584, in render
@@ -64,9 +58,9 @@ Full traceback:
     surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\loader.py", line 576, in load
     raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'rilo_icon.png'.
+IOError: Couldn't find file 'AmethystScn1/1.jpg'.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
-Gem Blast 1.1.0
-Sun Aug 18 04:51:04 2019
+Beach City Nights 1.1.0
+Sun Aug 18 15:37:36 2019

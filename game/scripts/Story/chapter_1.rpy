@@ -4,9 +4,9 @@ label chapter_1:
     
     scene bg house night
     "The next morning..."
-    show per embarassedN
+    show pearl embarrassed night
     p "Um..."
-    hide per
+    hide pearl
     m "What was that?" 
     m "Was she... watching me sleep?"
     "Probably."

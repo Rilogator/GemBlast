@@ -294,13 +294,13 @@ screen navigation():
             yalign 1.0
 
             imagebutton:
-                idle "dk_icon.png"
-                hover "dk_icon_active.png"
+                idle "Promo/dk_icon.png"
+                hover "Promo/dk_icon_active.png"
                 action OpenURL("https://www.patreon.com/Digitalkaiju")
 
             imagebutton:
-                idle "rilo_icon.png"
-                hover "rilo_icon_active.png"
+                idle "Promo/rilo_icon.png"
+                hover "Promo/rilo_icon_active.png"
                 action OpenURL("https://rilogator.itch.io/")
 
     vbox:
