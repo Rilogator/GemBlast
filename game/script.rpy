@@ -48,7 +48,7 @@ label start:
 
     "That's all the content for now!"
     "But maybe you can get a different ending."
-    "Make sure to check out the patreon link in the main menu."
+    "Make sure to check out the Patreon link in the main menu."
     "We look forward to seeing you next time!"
 
 return

@@ -89,9 +89,9 @@ label amethyst_1:
     "It's time for you to set the pace."
     "She doesn't seem to mind anyway."
     "You quicken into a proper face fucking, her hair bouncing around your fingers."
-    "From this angle you can see her impossible booth beneath her."
+    "From this angle you can see her impossible booty beneath her."
     "With the speed you've picked up, her ass is also jiggling slightly along with your movements."
-    "Neither of you mind using Amethyst being used like this."
+    "Neither of you mind Amethyst being used like this."
     "She started it, after all."
     
     show a8 with dissolve
@@ -100,7 +100,7 @@ label amethyst_1:
     "You're so caught in the moment you don't even bother to warn her."
     "You just start cumming in Amethyst's heavenly mouth."
     "She looks so pleased with herself as her relentless sucking doesn't stop."
-    "In fact, she ratchets up the vacuum a noth, her cheeks hollowing out."
+    "In fact, she ratchets up the vacuum a notch, her cheeks hollowing out."
     "It seems she's determined to drain you for all your worth."
     "Just as you start to get weak in the knees, you empty the last shot of cum down Amethyst's waiting throat."
     "With your balls drained, you slump backward onto the couch."
@@ -110,13 +110,13 @@ label amethyst_1:
     "As your eyes refocus, Amethyst shows you the product of your hard work."
 
     show a10 with dissolve
-    a "'gulp!'"
+    a "'Gulp!'"
     show a11 with dissolve
 
     m "Amy that's gross."
     a "Nah you love it, big guy."
 
     scene bg house night
-    "With the night finishined and your lust sated, you drift off to sleep right in the living room."
+    "With the night finished and your lust sated, you drift off to sleep right in the living room."
 
 return

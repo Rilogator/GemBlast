@@ -90,7 +90,7 @@ label chapter_1:
                 return
 
             "Play some gamestation":
-                "You play your gamestation."
+                "You play your Gamestation."
                 "Playing a VN just to pretend to play videogames is kinda sad."
                 "You end up putting the controller down and contemplate how you wasted your day."
                 jump daily_reset
