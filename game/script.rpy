@@ -15,6 +15,8 @@ define a = Character("Amethyst", who_color="#B898CA", what_prefix='"', what_suff
 
 label start:
 
+    call screen livingRoom
+
     scene bg outside night
 
     "Welcome to our digital adventure!"
@@ -33,7 +35,7 @@ label start:
             jump nameEntry
         "Yes! Let's get on with it already!":
             "Suit yourself! Here we go..."
-            
+
     call prologue from _call_prologue
 
     call chapter_1 from _call_chapter_1
@@ -50,5 +52,32 @@ label start:
     "But maybe you can get a different ending."
     "Make sure to check out the Patreon link in the main menu."
     "We look forward to seeing you next time!"
+
+return
+
+screen livingRoom():
+
+    imagemap:
+
+        auto "mapTest/mapTest_%s.png"
+
+        hotspot (649, 474, 141, 141) action Jump('amethyst_1')
+        hotspot (43, 552, 170, 161) action Jump('pearl_1')
+
+
+
+##############################################################
+#############################################################
+
+
+
+
+
+
+
+
+
+
+
 
 return
