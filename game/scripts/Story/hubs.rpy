@@ -39,9 +39,7 @@ return
 label second_act:
 
     #Menu Variables
-    $ pearl = True
-    $ amy = True
-    $ garnet = True
+    $ actProgress = 0
 
     # Music goes here
     label living_room2:
@@ -58,16 +56,16 @@ label second_act:
         # g "Steben ur pen0r is 2 big"
 
         menu act2:
-            "Looks like Pearl has a mission for us." if pearl:
-                $ pearl = False
+            "Looks like Pearl has a mission for us." if actProgress == 0:
+                $ actProgress = 1
                 jump pearl_3
 
             # "Fuck Rosie Amethyst" if amy:
             #     $ amy = False
             #     jump act2
 
-            "Garnet has a fun day planned." if garnet:
-                $ garnet = False
+            "Garnet has a fun day planned." if actProgress == 1:
+                $ actProgress = 2
                 jump garnet_2
 
 

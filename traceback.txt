@@ -1,61 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-<<<<<<< HEAD
-  File "game/scripts/Story/hubs.rpy", line 60, in script
+  File "game/scripts/Story/hubs.rpy", line 58, in script
     menu act2:
-  File "game/scripts/Story/hubs.rpy", line 61, in <module>
-    "Looks like Pearl has a mission for us." if pearlOption:
-NameError: name 'pearlOption' is not defined
-=======
-  File "game/scripts/Character Specific/Pearl/pearl_1.rpy", line 17, in script
-    p "[playerName]!"
-KeyError: u'playerName'
->>>>>>> f8838e79e8b22b31925180e0dd0ca39daac3fbcd
+SyntaxError: invalid syntax (game/scripts/Story/hubs.rpy, line 67)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-<<<<<<< HEAD
-  File "game/scripts/Story/hubs.rpy", line 60, in script
+  File "game/scripts/Story/hubs.rpy", line 58, in script
     menu act2:
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 1626, in execute
     choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\exports.py", line 949, in menu
     condition = renpy.python.py_eval(condition)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2035, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2028, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/scripts/Story/hubs.rpy", line 61, in <module>
-    "Looks like Pearl has a mission for us." if pearlOption:
-NameError: name 'pearlOption' is not defined
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2033, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 690, in py_compile
+    raise e
+SyntaxError: invalid syntax (game/scripts/Story/hubs.rpy, line 67)
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
 Gem Blast 4.1.0
-Tue Dec 03 02:29:42 2019
-=======
-  File "game/scripts/Character Specific/Pearl/pearl_1.rpy", line 17, in script
-    p "[playerName]!"
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 706, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\exports.py", line 1336, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\character.py", line 1126, in __call__
-    what = what_pattern.replace("[what]", sub(what, translate=True))
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\character.py", line 1115, in sub
-    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\substitutions.py", line 253, in substitute
-    s = formatter.vformat(s, (), kwargs)
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 563, in vformat
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 585, in _vformat
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 646, in get_field
-  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 605, in get_value
-KeyError: u'playerName'
-
-Windows-8-6.2.9200
-Ren'Py 7.3.2.320
-Beach City Nights 1.1.0
-Sun Aug 18 20:05:37 2019
->>>>>>> f8838e79e8b22b31925180e0dd0ca39daac3fbcd
+Tue Dec 10 07:49:47 2019
