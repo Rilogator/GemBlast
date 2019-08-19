@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Beach City Nights")
+define config.name = _("Gem Blast")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -42,7 +42,7 @@ Music was obtained {a=https://opengameart.org/content/next-to-you}here{/a} witho
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Beach-City-Nights"
+define build.name = "Gem-Blast"
 
 
 ## Sounds and music ############################################################
