@@ -73,7 +73,7 @@ label amethyst_1:
     "Her lips slowly push down toward your groin before languidly making their way back to the peak of your dick."
     "In spite of her earlier haste, she now sucks your dick with a intenful laziness."
     "Seeing her smile with a mouth full of dick makes your member twitch."
-    "Amethyst moans, please at your reaction."
+    "Amethyst moans, pleased at your reaction."
     "Slowly she goes, up and down, never needing to stop and take a breath."
     "Another quirk of being a gem."
     "'Slurp'"
