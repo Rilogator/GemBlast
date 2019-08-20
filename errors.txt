@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 244: u'play' is not a keyword argument or valid child for the screen statement.
-    play music "Next to You.mp3"
-        ^
+File "game/screens.rpy", line 296: u'duck' is not a keyword argument or valid child for the imagebutton statement.
+    imagebutton duck:
+                    ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Thu Aug 15 23:02:42 2019
+Mon Aug 19 21:09:40 2019

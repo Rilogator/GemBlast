@@ -289,19 +289,6 @@ style quick_button_text:
 ## to other menus, and to start the game.
 
 screen navigation():
-    if main_menu:
-        hbox:
-            yalign 1.0
-
-            imagebutton:
-                idle "Promo/dk_icon.png"
-                hover "Promo/dk_icon_active.png"
-                action OpenURL("https://www.patreon.com/Digitalkaiju")
-
-            imagebutton:
-                idle "Promo/rilo_icon.png"
-                hover "Promo/rilo_icon_active.png"
-                action OpenURL("https://rilogator.itch.io/")
 
     vbox:
         style_prefix "navigation"
@@ -372,7 +359,18 @@ screen main_menu():
 
     ## This empty frame darkens the main menu.
     frame:
-        pass
+        hbox:
+            yalign 1.0
+
+            imagebutton:
+                idle "Promo/dk_icon.png"
+                hover "Promo/dk_icon_active.png"
+                action OpenURL("https://www.patreon.com/Digitalkaiju")
+
+            imagebutton:
+                idle "Promo/rilo_icon.png"
+                hover "Promo/rilo_icon_active.png"
+                action OpenURL("https://rilogator.itch.io/")
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
