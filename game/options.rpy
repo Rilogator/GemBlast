@@ -34,7 +34,7 @@ define gui.about = _p("""
 This is a fan project that is in no way intended for monetary gain.
 We hope that people enjoy our game, and keep a look out for our future projects!
 
-Music was created for this project by Metatron.
+Music was created for this project by MET∆TRON.
 {a=https://twitter.com/rareunit}Twitter{/a} and {a=https://soundcloud.com/metatronlives}SoundCloud{/a}.
 """)
 
