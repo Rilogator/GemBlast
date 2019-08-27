@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "1.2.0"
+define config.version = "1.2.1 "
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -34,7 +34,8 @@ define gui.about = _p("""
 This is a fan project that is in no way intended for monetary gain.
 We hope that people enjoy our game, and keep a look out for our future projects!
 
-Music was obtained {a=https://opengameart.org/content/next-to-you}here{/a} without permission.
+Music was created for this project by Metatron.
+{a=https://twitter.com/rareunit}Twitter{/a} and {a=https://soundcloud.com/metatronlives}SoundCloud{/a}.
 """)
 
 
@@ -66,7 +67,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-define config.main_menu_music = "Next to You.mp3"
+define config.main_menu_music = "<loop 2.8>music/main_theme.ogg"
 
 
 ## Transitions #################################################################

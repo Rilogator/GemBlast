@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 296: u'duck' is not a keyword argument or valid child for the imagebutton statement.
-    imagebutton duck:
-                    ^
+File "game/screens.rpy", line 363: u'play' is not a keyword argument or valid child for the screen statement.
+    play music.queue("music/intro.ogg")
+        ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Mon Aug 19 21:09:40 2019
+Tue Aug 27 13:51:51 2019
