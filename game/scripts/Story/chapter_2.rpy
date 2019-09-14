@@ -1,4 +1,5 @@
 label chapter_2:
+    scene bg house day
 
     "With last night's events behind you, the next couple days are actually pretty boring."
 
@@ -8,9 +9,6 @@ label chapter_2:
     else:
         "Pearl worked your over pretty good, nearly turning you into putty."
         jump Pearl2
-
-
-
 
     label Amy2:
         "She doesn't bring up the next day, a fact that doesn't bother you too much."
@@ -33,7 +31,9 @@ label chapter_2:
         "Amethyst starts laughing in that way she does when she's up to no good."
         "Having a feeling of where this all leading up to, you wait for an oppurtunity when Pearl is out of the house."
         "When the coast is clear you call Amethyst over. She positively bounces over to you, knowing exactly whats in store."
-#jump to Amethyst 2
+
+        jump amethyst_2
+
         return
 
     label Pearl2:
@@ -61,13 +61,13 @@ label chapter_2:
                 "Pearl pulls you into a big hug."
                 p "It makes me so happy having you home again, [playerName]!"
 
-            "Honestly, a little. Beach City is all I've ever known."
-            p "Oh..."
-            p "Well I am determined to make things a little more exciting around here!"
-#jump to Pearl 2
+            "Honestly, a little. Beach City is all I've ever known.":
+                p "Oh..."
 
-    -> END
+        p "Well I am determined to make things a little more exciting around here!"
 
+        jump pearl_2
 
+        return
 
 return

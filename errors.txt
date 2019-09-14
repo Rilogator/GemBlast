@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 363: u'play' is not a keyword argument or valid child for the screen statement.
-    play music.queue("music/intro.ogg")
-        ^
+File "game/scripts/Story/chapter_2.rpy", line 65: Say menuitems and captions may not exist in the same menu.
+    p "Oh..."
+             ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Tue Aug 27 13:51:51 2019
+Sat Sep 14 13:56:07 2019

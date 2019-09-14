@@ -33,12 +33,12 @@ label start:
             jump nameEntry
         "Yes! Let's get on with it already!":
             "Suit yourself! Here we go..."
-            
+
     call prologue from _call_prologue
 
     call chapter_1 from _call_chapter_1
 
-    # call chapter_2 from _call_chapter_2
+    call chapter_2 from _call_chapter_2
 
     # call chapter_3 from _call_chapter_3
 
