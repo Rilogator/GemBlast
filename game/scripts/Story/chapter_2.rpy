@@ -13,6 +13,7 @@ label chapter_2:
     label Amy2:
         "She doesn't bring up the next day, a fact that doesn't bother you too much."
         "She seems her usual lazy self and doesn't bring up what happened."
+        show amethyst
         "However, it does seem she's going out of her way to be around you."
         "Laughing a little more at your jokes, holding onto you and playfully shoving you a little more than usual."
 
