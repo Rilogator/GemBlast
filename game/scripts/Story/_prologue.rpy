@@ -58,16 +58,16 @@ label prologue:
     g "[playerName]"
     g "I have to leave now. I know you just arrived but its an important mission. You know how it is."
 
-    menu:        
+    menu:
         "Can't you postpone it?":
             "She laughs warmly."
             g "If only."
         "Yeah I guess I do.":
             g "Don't worry [playerName]"
-            
+
     g "I'll be back before you know it."
     g "Pearl, can I have a moment with [playerName]?"
-    p "Of course." 
+    p "Of course."
     hide pearl
     p "Come on Amethyst, we need to go find food for [playerName] to eat while he's here."
     a "Oh right I forgot he needs to do that..."
@@ -97,7 +97,7 @@ label prologue:
 
     show pearl neutral at right
     show amethyst neutral at left
-    
+
     "She's gone! To parts unknown, leaving you with the other two Crystal Gems."
     "They help you get settled in and reacquainted with the old beach house."
     "It definitely feels good to be back home."

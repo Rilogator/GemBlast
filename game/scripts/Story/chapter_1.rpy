@@ -1,13 +1,13 @@
 label chapter_1:
     $ pearlHelped = False
     $ amyHangout = False
-    
+
     scene bg house night
     "The next morning..."
     show pearl embarrassed night
     p "Um..."
     hide pearl
-    m "What was that?" 
+    m "What was that?"
     m "Was she... watching me sleep?"
     "Probably."
     scene bg house day
@@ -30,7 +30,7 @@ label chapter_1:
         "Watch some television.":
             $ amyHangout = True
             jump amyTv
-            
+
     return
 
     label amyTv:
@@ -39,7 +39,7 @@ label chapter_1:
         show amethyst neutral
         a "Hey [playerName], whats up!"
         "You're a bit startled by her sudden appearance."
-        m "Oh hey." 
+        m "Oh hey."
         m "I was just about to watch something."
         show amethyst flirty
         a "Yeah?"
@@ -72,7 +72,7 @@ label chapter_1:
                     "Her thick thighs spread out onto the rest of the couch as she rests most her weight onto your arm."
                     "Even something as a captivating a documentary can't keep you from looking downward at her sizable cleavage."
                     "Well more than sizable, massive really."
-                    "You can't help but get more than a little turned on, trapped as you are."   
+                    "You can't help but get more than a little turned on, trapped as you are."
 
         "You watch the program well past noon. Amethyst gets up to stretch and wonders off to find something else to sleep on."
         jump afternoon
@@ -82,6 +82,7 @@ label chapter_1:
         "After grabbing some lunch, you think about what to do in the latter half of the day."
         menu afternoon_activities:
             "You decide that you're going to..."
+
             "Do some more hard work":
                 if pearlHelped == True:
                     jump pearl_1

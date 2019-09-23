@@ -1,11 +1,11 @@
 # Image definitions for scene
-image p1 = "Lewds/PearlScn1/1.jpg"
-image p2 = "Lewds/PearlScn1/2.jpg"
-image p3 = "Lewds/PearlScn1/3.jpg"
-image p4 = "Lewds/PearlScn1/4.jpg"
-image p5 = "Lewds/PearlScn1/5.jpg"
-image p6 = "Lewds/PearlScn1/6.jpg"
-image p7 = "Lewds/PearlScn1/7.jpg"
+# image p1 = "Lewds/PearlScn1/1.jpg"
+# image p2 = "Lewds/PearlScn1/2.jpg"
+# image p3 = "Lewds/PearlScn1/3.jpg"
+# image p4 = "Lewds/PearlScn1/4.jpg"
+# image p5 = "Lewds/PearlScn1/5.jpg"
+# image p6 = "Lewds/PearlScn1/6.jpg"
+# image p7 = "Lewds/PearlScn1/7.jpg"
 
 label pearl_1:
     scene bg house day
@@ -37,7 +37,7 @@ label pearl_1:
     show pearl flirty alt night
     p "Actually..."
 
-    show p1 with dissolve
+    show pearl1 1 with dissolve
 
     p "I have these for just this occasion!"
     "…"
@@ -50,7 +50,7 @@ label pearl_1:
     "As you're stroked to full hardness, Pearl seems satisfied with her progress."
     "She then lathers her hands with with oil and lotion, making her hands glisten in the moonlight."
 
-    show p2 with dissolve
+    show pearl1 2 with dissolve
 
     "Okay"
     "Here we go"
@@ -59,7 +59,7 @@ label pearl_1:
     "Deciding not to put her off, you keep your composure."
     "She hesitates for a moment as her hands hover around your proud member."
 
-    show p3 with dissolve
+    show pearl1 3 with dissolve
 
     "One of her hands circles around the base of your dick."
     "The other focuses on spreading lubricant around the top of your head."
@@ -72,7 +72,7 @@ label pearl_1:
     "The next, she's making a cage with her fingers and sliding them up and down."
     "Each sensation never lasts too long, as she teases you with different motions."
 
-    show p4 with dissolve
+    show pearl1 4 with dissolve
 
     "You begin to notice that you're letting out little gasps of pleasure."
     "Your hands grab at the bed sheets."
@@ -83,20 +83,20 @@ label pearl_1:
     "Your head leans back on its own"
     m "Pearl, I'm... I'm close..."
 
-    show p5 with dissolve
+    show pearl1 5 with dissolve
 
     "Oh yeah, {i}that{/i} part."
     "I would appreciate if you waited until I was out of the way [playerName]."
     "I don't appreciate being covered in those fluids you humans are so fond of"
 
-    show p6 with dissolve
+    show pearl1 6 with dissolve
 
     "Pearl's indifference about the whole situation is just the trigger to set you off."
     "You shoot a long rope of cum in her direction."
     "Her surprise at being caught mid-sentence foils any chance at it missing her."
     "Before she has a chance to recover, you're already letting loose multiple smaller spurts."
 
-    show p7 with dissolve
+    show pearl1 7 with dissolve
 
     "Her hands are absolutely covered in your semen, and a long trail of it hangs down from her porcelain face."
     p "Uck, it's everywhere"
