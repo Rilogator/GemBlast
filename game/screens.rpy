@@ -373,6 +373,11 @@ screen main_menu():
                 hover "Promo/rilo_icon_active.png"
                 action OpenURL("https://rilogator.itch.io/")
 
+            imagebutton:
+                idle "Promo/metatron icon.png"
+                hover "Promo/metatron icon active.png"
+                action OpenURL("https://soundcloud.com/metatronlives")
+
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
     use navigation
