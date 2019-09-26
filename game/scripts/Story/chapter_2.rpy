@@ -15,7 +15,7 @@ label chapter_2:
     label Amy2:
         "She doesn't bring up the next day, a fact that doesn't bother you too much."
         "She seems her usual lazy self and doesn't bring up what happened."
-        show amethyst
+        show amethyst flirty
         "However, it does seem she's going out of her way to be around you."
         "Laughing a little more at your jokes, holding onto you and playfully shoving you a little more than usual."
 
@@ -33,7 +33,9 @@ label chapter_2:
         a "What makes you say that?"
         "Amethyst starts laughing in that way she does when she's up to no good."
         "Having a feeling of where this all leading up to, you wait for an oppurtunity when Pearl is out of the house."
-        "When the coast is clear you call Amethyst over. She positively bounces over to you, knowing exactly whats in store."
+        "When the coast is clear you call Amethyst over."
+        "She positively bounces over to you, knowing exactly whats in store."
+        "In fact, she takes the lead from you, and pushes you backward onto the bed."
 
         jump amethyst_2
 

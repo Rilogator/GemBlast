@@ -1,16 +1,3 @@
-# Image definitions for scene
-image a1 = "Lewds/AmethystScn1/1.jpg"
-image a2 = "Lewds/AmethystScn1/2.jpg"
-image a3 = "Lewds/AmethystScn1/3.jpg"
-image a4 = "Lewds/AmethystScn1/4.jpg"
-image a5 = "Lewds/AmethystScn1/5.jpg"
-image a6 = "Lewds/AmethystScn1/6.jpg"
-image a7 = "Lewds/AmethystScn1/7.jpg"
-image a8 = "Lewds/AmethystScn1/8.jpg"
-image a9 = "Lewds/AmethystScn1/9.jpg"
-image a10 = "Lewds/AmethystScn1/10.jpg"
-image a11 = "Lewds/AmethystScn1/11.jpg"
-
 label amethyst_1:
     scene bg house night
 
@@ -31,12 +18,12 @@ label amethyst_1:
     a "Don't be dumb, let's get into it"
     m "No really I don't know what you're-"
 
-    show a1 with dissolve
+    show amy1 1 with dissolve
 
     m "..."
 
-    show a2 with dissolve
-    show a3 with dissolve
+    show amy1 2 with dissolve
+    show amy1 3 with dissolve
 
     m "Wow..."
     a "Yeah I knew you'd like these."
@@ -54,7 +41,7 @@ label amethyst_1:
     "Her tits flop around recklessly as you're just able to get the zipper down."
     "With her prize finally in sight, Amethyst gets to work."
 
-    show a4 with dissolve
+    show amy1 4 with dissolve
 
     "Your prick is quickly covered in saliva as Amethyst's tongue dutifully covers every inch it can."
     "Her movements are sloppy and quick."
@@ -62,13 +49,13 @@ label amethyst_1:
     "After a minute of tongue bathing, Amethyst lets up to admire her handiwork."
     "Hesitation isn't really her thing, but as she brings her pillowy lips close..."
 
-    show a5 with dissolve
+    show amy1 5 with dissolve
 
     "...the suspense of what's to come nearly overwhelms you."
     "Amethyst's breaths are soft and warm."
     "Before you can say anything and ruin the moment, she lowers her mouth onto your hard cock."
 
-    show a6 with dissolve
+    show amy1 6 with dissolve
 
     "Her lips slowly push down toward your groin before languidly making their way back to the peak of your dick."
     "In spite of her earlier haste, she now sucks your dick with a intenful laziness."
@@ -82,9 +69,10 @@ label amethyst_1:
     "'slurp'"
     "After what feels like a torturous amount of time, you can't hold yourself back."
 
-    show a7 with dissolve
+    show amy1 7 with dissolve
 
-    m "Ah yeah, come on Amy!"
+    m "Ah yeah, come on Amethyst!"
+
     "You grab the back of her head with both hands."
     "It's time for you to set the pace."
     "She doesn't seem to mind anyway."
@@ -94,7 +82,7 @@ label amethyst_1:
     "Neither of you mind Amethyst being used like this."
     "She started it, after all."
 
-    show a8 with dissolve
+    show amy1 8 with dissolve
 
     "All too soon, the pressure builds in your loins and you're ready to let loose."
     "You're so caught in the moment you don't even bother to warn her."
@@ -105,18 +93,18 @@ label amethyst_1:
     "Just as you start to get weak in the knees, you empty the last shot of cum down Amethyst's waiting throat."
     "With your balls drained, you slump backward onto the couch."
 
-    show a9 with dissolve
+    show amy1 9 with dissolve
 
     "As your eyes refocus, Amethyst shows you the product of your hard work."
 
-    show a10 with dissolve
+    show amy1 10 with dissolve
     a "'Gulp!'"
-    show a11 with dissolve
+    show amy1 11 with dissolve
 
     m "Amy that's gross."
     a "Nah you love it, big guy."
 
-    scene bg house night
+    hide amy1 with dissolve
     "With the night finished and your lust sated, you drift off to sleep right in the living room."
 
 return
