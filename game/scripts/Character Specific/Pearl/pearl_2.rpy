@@ -1,13 +1,3 @@
-#definitions for images
-
-# image p1 = "Lewds/PearlScn2/1.jpg"
-# image p2 = "Lewds/PearlScn2/2.jpg"
-# image p3 = "Lewds/PearlScn2/3.jpg"
-# image p4 = "Lewds/PearlScn2/4.jpg"
-# image p5 = "Lewds/PearlScn2/5.jpg"
-# image p6 = "Lewds/PearlScn2/6.jpg"
-# image p7 = "Lewds/PearlScn2/7.jpg"
-
 label pearl_2:
     scene bg house day
     "She swiftly takes your hand and pulls it to her chest."

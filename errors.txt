@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Story/chapter_2.rpy", line 65: Say menuitems and captions may not exist in the same menu.
-    p "Oh..."
-             ^
+File "game/scripts/Character Specific/Amethyst/amethyst_2.rpy", line 33: choice menuitem expects a non-empty block.
+    "Hell yeah.":
+                 ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Sat Sep 14 13:56:07 2019
+Wed Sep 25 19:49:12 2019
