@@ -1,10 +1,10 @@
 label amethyst_2:
 
-    show amy2 1 with dissolve
+    scene amy2 1 with dissolve
 
     "Her big ass eclipses you entire lap, while you're caught by surprise."
     "She grinds her plush bottom in little circles."
-    "You'd thik she's done this before the way she moves."
+    "You'd think she's done this before the way she moves."
 
     a "How do you like that, [playerName]?"
     a "I bet it's the only reason you came back home isn't it?"
@@ -78,7 +78,7 @@ label amethyst_2:
     m "Eh yeah."
     m "You can clean yourself up right?"
 
-    hide amy2
+    scene bg house day with dissolve
 
     show amethyst happy
 
@@ -92,6 +92,8 @@ label amethyst_2:
     a "Why would I?"
     a "I'm gonna go see what's on TV."
     a "Put your pants back on before Pearl freaks."
+
+    hide amethyst with dissolve
 
     "As you set yourself straight and Amethsyt walks out into the living room you can hear her mutter to herself."
 

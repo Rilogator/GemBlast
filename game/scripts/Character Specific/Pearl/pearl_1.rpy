@@ -1,12 +1,3 @@
-# Image definitions for scene
-# image p1 = "Lewds/PearlScn1/1.jpg"
-# image p2 = "Lewds/PearlScn1/2.jpg"
-# image p3 = "Lewds/PearlScn1/3.jpg"
-# image p4 = "Lewds/PearlScn1/4.jpg"
-# image p5 = "Lewds/PearlScn1/5.jpg"
-# image p6 = "Lewds/PearlScn1/6.jpg"
-# image p7 = "Lewds/PearlScn1/7.jpg"
-
 label pearl_1:
     scene bg house day
 
