@@ -3,103 +3,103 @@ define flash = Fade(0.1, 0.0, 0.5, color="#fff")
 
 label prologue:
 
-    scene bg outside day
+    scene bg sky
 
-    "It's been a while, but after being away for too long you decide to visit your old friends."
-    "You find yourself in your home town of Beach City, a shining shoreline town."
-    "As you ponder the memories you've made, three colorful figures you approach you."
-    "It can only be, of course..."
+    "Long hours spent on a bus have almost soured the trip, but then you peer through the window, out toward the horizon."
+    "The coastline shimmers with a familiar beauty, reinvigorating your mood."
+    "The ocean waves crash on your home town, {b}Beach City{/b}."
+    "Four years away at university,  you return with newfound insight."
+    "All you can think about right now though is how good coming back home feels."
+    "You think about all the denizens that are sure to be happy at your return."
+    "Of all your old friends, the ones you can’t wait to see most are, of course, the Crystal Gems."
 
-    show garnet at center
-    show pearl neutral at right
-    show amethyst neutral at left
+    "Eventually you pull into the bus station, and hike your bag on your shoulder and make your way to the house."
 
-    "The Crystal Gems!"
-    show amethyst happy
-    a "[playerName]! Welcome back buddy, we totally missed you!"
-    show amethyst neutral
-    show pearl happy
-    p "Yes! Even though we know you probably don't need us worrying about you, we're still happy to see you return home safe."
-    g "I wasn't worried."
-    show pearl embarrassed
-    p "Garnet!"
-    a "Relax P, you know she's got the whole future thing covered."
-    p "..."
-    show pearl embarrassed alt
-    p "I suppose you are right. [playerName] is capable of handling himself."
-    g "You know he is. Welcome back, [playerName]."
-    show pearl happy
-    p "Welcome back indeed!"
+    scene bg town
 
-    "You let out a joyful laugh, and the gems join in as well."
-    show amethyst happy
-    "It is good to see them after such a long time, and they haven't changed one bit."
-    "Garnet shows off her massive strength by lifting all your things above her head with one hand."
+    "As much as you’d like for your family to greet you as soon as you set foot down in the city, their presence always causes a ruckus with the townies."
+    "A laugh escapes you as you think about all the antics the heroes of Beach City get up to."
+    "They mean well, but things can still get out of hand."
+    "You wonder what they’ve been up to while you’ve been away, smiling and waving at passersby."
 
-    g "Come on then. No time to waste."
-
-    "The strongest of the gems takes your things into the house, and the rest of you follow suit."
-
-    scene bg house day
-
-    "You get settled in quickly with four you helping along."
-    show pearl neutral
-    p "Oh good we're right on schedule."
-    show pearl embarrassed alt
-    p "No thanks to Amethyst..."
-    show amethyst neutral at right
-    a "Hey, I put away all the food."
-    "Pearl rolls her eyes before putting on a smile as she turns to you."
-    hide amethyst
-    show pearl neutral
-    p "Now then, before you settle in, we do have something to tell you."
-    show garnet at center
-    show pearl neutral at right
-    g "[playerName]"
-    g "I have to leave now. I know you just arrived but its an important mission. You know how it is."
+    "Those that recognize you call out and ask small questions."
 
     menu:
-        "Can't you postpone it?":
-            "She laughs warmly."
-            g "If only."
-        "Yeah I guess I do.":
-            g "Don't worry [playerName]"
+        "How do you respond?"
 
-    g "I'll be back before you know it."
-    g "Pearl, can I have a moment with [playerName]?"
-    p "Of course."
-    hide pearl
-    p "Come on Amethyst, we need to go find food for [playerName] to eat while he's here."
-    a "Oh right I forgot he needs to do that..."
+        "Hurry home.":
+            "They sound dissapointed but understand your eagerness to get back home."
+
+        "Give a polite nod and make small talk.":
+            "You take your time saying high to apparent strangers."
+            "It never occured to you that you were ever this popular but the proof lies in the many small commotions your appearance causes."
+
+    scene bg outside day
+
+    "The sun still hangs high in the air when you make it to your beachside abode."
+    "Memories flood your mind as you stare affectionately at the little shack nestled under the gigantic statue built into the mountainside."
+    "Lost in reminiscence, you almost fail to notice:"
+
     show garnet at center
-    g "..."
-    g "I'm glad you're home safe."
-    g "But this really is an important mission. Before I go I just wanted to tell you."
-    show garnet alt
-    g "Behave yourself."
-    show garnet
-    "You're taken slightly aback by Garnet's directness."
-    "Hardly out of character when it comes to her, yet you're still a bit uneased."
-    "Sensing this, Garnet pulls you close into a powerful hug."
-    g "And don't be too serious. You're here to have fun too, remember?"
-    "You smile back as the tension diffuses, and return her embrace."
-    g "And that goes for the rest of you."
-    show pearl neutral at right
-    show amethyst neutral at left
-    g "I want to see [playerName] in one piece when I get back, is that clear?"
-    a "You got it, boss."
-    p "I will make sure of it, no doubt about that."
-    g "Excellent. Goodbye everyone."
-    "Garnet makes a salute gesture with two fingers before stepping onto the warp pad."
-    "Without hesitation she looks up and..."
-    scene bg house day
-    with flash
+    "{b}Garnet{/b}"
 
-    show pearl neutral at right
-    show amethyst neutral at left
+    show amethyst happy at left
+    "{b}Amethyst{/b}"
 
-    "She's gone! To parts unknown, leaving you with the other two Crystal Gems."
-    "They help you get settled in and reacquainted with the old beach house."
-    "It definitely feels good to be back home."
+    show pearl happy at right
+    "and {b}Pearl{/b}!"
 
+    p "[playerName]! Oh it is so good to see you!"
+
+    a "Hey player!"
+    a "Who said you could get so tall, dude."
+
+    show amethyst neutral
+    show pearl neutral
+
+    "Garnet just pulls the three of you into a great big bear hug, making use of her impressive size and strength."
+
+    g "It is good to see you, [playerName]."
+    g "The girls were worried sick about you the whole time."
+
+    a "Nah I wasn't too worried."
+
+    show pearl happy
+
+    p "I was very worried!"
+
+    show pearl neutral
+
+    "Right before you ask her to let you breath, Garnet lets everyone loose from her embrace."
+
+    g "I'm glad I got to see you before I headed out on the mission."
+
+    "You give a look of dissapointment and Garnet nods solemnly."
+
+    g "I know, but this is something that can’t be put off."
+    g "I hope you'll understand."
+
+    show pearl neutral alt
+
+    p "She loves you just as much as we do, [playerName]."
+
+    menu:
+        "I understand... ":
+            m "Yeah... I know how it is."
+
+        "That's not fair!":
+            m "I just got here and everything!"
+
+    g "Monsters don't take a break, you know that."
+
+    a "He’s a big guy P, stop being all mushy."
+
+    g "Come. We have something to show you before I leave."
+
+    show pearl happy alt
+
+    p "Oh yes! We simply cannot wait to show you."
+
+    "Without further ado, Pearl helps you bring your things inside."
+    "Home at last."
 return

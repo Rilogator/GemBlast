@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Character Specific/Amethyst/amethyst_2.rpy", line 33: choice menuitem expects a non-empty block.
-    "Hell yeah.":
-                 ^
+File "game/scripts/Story/chapter_1.rpy", line 6: Menu does not contain any choices.
+    menu:
+         ^
+
+File "game/scripts/Story/chapter_1.rpy", line 9: expected statement.
+    "Of course I do.":
+                     ^
+
+File "game/scripts/Story/chapter_1.rpy", line 16: expected statement.
+    "I like it the way it is.":
+                              ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Wed Sep 25 19:49:12 2019
+Tue Oct 01 23:21:17 2019

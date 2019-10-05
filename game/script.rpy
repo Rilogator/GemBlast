@@ -15,7 +15,7 @@ define a = Character("Amethyst", who_color="#B898CA", what_prefix='"', what_suff
 
 label start:
 
-    scene bg outside night
+    scene bg sky
 
     "Welcome to our digital adventure!"
     "We're sure you'll have a wonderful time, but first we need to ask some questions."
@@ -48,7 +48,7 @@ label start:
 
     "That's all the content for now!"
     "But maybe you can get a different ending."
-    "Make sure to check out the Patreon link in the main menu."
+    "Make sure to check out the Patreon link in the main menu for future updates."
     "We look forward to seeing you next time!"
 
 return
