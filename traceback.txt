@@ -1,70 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <'Image' u'images/Backgrounds/bg town.png'>:
-  File "game/script.rpy", line 37, in script call
-    call prologue from _call_prologue
-  File "game/scripts/Story/_prologue.rpy", line 20, in script
-    "As much as you’d like for your family to greet you as soon as you set foot down in the city, their presence always causes a ruckus with the townies."
-Exception: Could not load image u'images/Backgrounds/bg town.png': IOError("Could not open u'C:\\\\Users\\\\Rilogator\\\\Documents\\\\Game Dev\\\\RenPy\\\\Projects\\\\GemBlast/game\\\\images/Backgrounds/bg town.png': Couldn't open C:\\Users\\Rilogator\\Documents\\Game Dev\\RenPy\\Projects\\GemBlast/game\\images/Backgrounds/bg town.png",)
+While running game code:
+  File "game/script.rpy", line 41, in script call
+    call chapter_2 from _call_chapter_2
+  File "game/scripts/Story/chapter_2.rpy", line 8, in script
+    if amyHangout == True:
+  File "game/scripts/Story/chapter_2.rpy", line 8, in <module>
+    if amyHangout == True:
+NameError: name 'amyHangout' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 37, in script call
-    call prologue from _call_prologue
-  File "game/scripts/Story/_prologue.rpy", line 20, in script
-    "As much as you’d like for your family to greet you as soon as you set foot down in the city, their presence always causes a ruckus with the townies."
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 706, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\exports.py", line 1336, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\character.py", line 1139, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, **display_args)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\character.py", line 842, in do_display
-    **display_args)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\character.py", line 591, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ui.py", line 295, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 2699, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 3191, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 2091, in draw_screen
-    renpy.config.screen_height,
-  File "render.pyx", line 546, in renpy.display.render.render_screen
-  File "render.pyx", line 247, in renpy.display.render.render
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 154, in renpy.display.render.render
-  File "render.pyx", line 247, in renpy.display.render.render
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 154, in renpy.display.render.render
-  File "render.pyx", line 247, in renpy.display.render.render
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\layout.py", line 722, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 154, in renpy.display.render.render
-  File "render.pyx", line 247, in renpy.display.render.render
-  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
-  File "render.pyx", line 247, in renpy.display.render.render
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\image.py", line 500, in render
-    return wrap_render(self.target, width, height, st, at)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\image.py", line 306, in wrap_render
-    rend = render(child, w, h, st, at)
-  File "render.pyx", line 154, in renpy.display.render.render
-  File "render.pyx", line 247, in renpy.display.render.render
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\im.py", line 584, in render
-    return cache.get(self, render=True)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\im.py", line 266, in get
-    surf = image.load()
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\im.py", line 629, in load
-    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\pgrender.py", line 162, in load_image
-    raise Exception("Could not load image {!r}: {!r}".format(filename, e))
-Exception: Could not load image u'images/Backgrounds/bg town.png': IOError("Could not open u'C:\\\\Users\\\\Rilogator\\\\Documents\\\\Game Dev\\\\RenPy\\\\Projects\\\\GemBlast/game\\\\images/Backgrounds/bg town.png': Couldn't open C:\\Users\\Rilogator\\Documents\\Game Dev\\RenPy\\Projects\\GemBlast/game\\images/Backgrounds/bg town.png",)
+  File "game/script.rpy", line 41, in script call
+    call chapter_2 from _call_chapter_2
+  File "game/scripts/Story/chapter_2.rpy", line 8, in script
+    if amyHangout == True:
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 1830, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2035, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2028, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scripts/Story/chapter_2.rpy", line 8, in <module>
+    if amyHangout == True:
+NameError: name 'amyHangout' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
 Gem Blast 2.0.1
-Fri Oct 04 20:07:58 2019
+Fri Oct 04 21:53:02 2019

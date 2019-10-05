@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Story/chapter_1.rpy", line 6: Menu does not contain any choices.
-    menu:
-         ^
-
-File "game/scripts/Story/chapter_1.rpy", line 9: expected statement.
-    "Of course I do.":
-                     ^
-
-File "game/scripts/Story/chapter_1.rpy", line 16: expected statement.
-    "I like it the way it is.":
-                              ^
+File "game/scripts/Story/chapter_1.rpy", line 51: end of line expected.
+    jump to garnet_1
+            ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Tue Oct 01 23:21:17 2019
+Fri Oct 04 21:51:54 2019
