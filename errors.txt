@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Story/chapter_1.rpy", line 51: end of line expected.
-    jump to garnet_1
+File "game/script.rpy", line 18: expected statement.
+    linear 0.5 xpos 0.85
             ^
 
+File "game/scripts/Story/chapter_1.rpy", line 77: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation.
+    linear 0.5 xpos 0.85
+    ^
+
 Ren'Py Version: Ren'Py 7.3.2.320
-Fri Oct 04 21:51:54 2019
+Sun Oct 06 18:25:17 2019

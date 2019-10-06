@@ -11,7 +11,11 @@ define a = Character("Amethyst", who_color="#B898CA", what_prefix='"', what_suff
 # Background
 ## A list of backgrounds should go here
 
-#bepis
+#Effects
+$ flash = Fade(.25, 0, .75, color="#fff")
+
+##transform moveright:
+##    linear 0.5 xpos 0.85
 
 label start:
 

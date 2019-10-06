@@ -56,7 +56,57 @@ label chapter_1:
             "Instead of letting compulsion get the better of you, you stay put and wave goodbye."
             "Perhaps by coincidence, Garnet gives a small backwards wave of her own."
 
-    "Finna succ, anon?"
+    hide garnet with flash
+
+    "..."
+    "The tower of light dissipates and Garnet's gone."
+    "Wth a heavy sigh you get to tracking down the rest of your things and put them in their proper place."
+
+    show pearl happy alt with dissolve
+
+    "Before you get too down, Pearl presents you with a slice of cake!"
+
+    p "Cheer up [playerName]. I have made you a cake!"
+
+    show pearl neutral
+
+    p "Well actually I made several cakes but Amethyst ate most of them."
+
+    show pearl at right with move
+
+    show amethyst neutral at left
+    a "They were good cakes P."
+
+    p "Yes, quite."
+
+    "You laugh and take a bite, a little spoon already neatly embedded in the slice."
+    "The rest of the homecoming party goes by rather merrily."
+    "Stories are swapped and laughter is had, until all too soon, night falls."
+
+    scene bg house night with dissolve
+
+    "Today was a big day, and the bus ride home was rather long."
+    "A nice comfortable bed is a good sight to finally see."
+    "You drift off to sleep, glad that things are back to normal."
+
+    scene bg house day with dissolve
+
+    "The next day:"
+
+    "As you wake up and rub the sleep from your eyes, you swear you can see Pearl making herself scare."
+    "Was Pearl watching you sleep?"
+    "Probably."
+    "With the day's schedule clear for the first time in what feels like forever, what do you do today?"
+
+    menu:
+        "What do you do today?"
+
+        "Work really hard.":
+            "Work work work"
+
+        "Be a lazy shit and watch cartoons all day.":
+            "Feels good to be a coombrain."
+
 
 
 
