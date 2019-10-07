@@ -39,17 +39,12 @@ label start:
 
     call chapter_1 from _call_chapter_1
 
-    call chapter_2 from _call_chapter_2
 
-    # call chapter_3 from _call_chapter_3
+    label epilogue:
 
-    # call chapter_4 from _call_chapter_4
-
-    # call epilogue from _call_epilogue
-
-    "That's all the content for now!"
-    "But maybe you can get a different ending."
-    "Make sure to check out the Patreon link in the main menu for future updates."
-    "We look forward to seeing you next time!"
+        "That's all the content for now!"
+        "But maybe you can get a different ending."
+        "Make sure to check out the Patreon link in the main menu for future updates."
+        "We look forward to seeing you next time!"
 
 return

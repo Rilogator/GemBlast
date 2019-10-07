@@ -1,64 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 40, in script call
-    call chapter_1 from _call_chapter_1
-  File "game/scripts/Character Specific/Amethyst/amethyst_2.rpy", line 11, in script
-    menu:
-  File "game/script.rpy", line 40, in script call
-    call chapter_1 from _call_chapter_1
-  File "game/scripts/Character Specific/Amethyst/amethyst_2.rpy", line 11, in script
-    menu:
-error: Out of memory
+  File "game/scripts/Character Specific/Pearl/pearl_2.rpy", line 49, in script
+    P "I read about a way to contain your human fluids, using this device."
+Exception: Sayer 'P' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\bootstrap.py", line 314, in bootstrap
-    renpy.main.main()
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\main.py", line 529, in main
-    run(restart)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\main.py", line 139, in run
-    renpy.execution.run_context(True)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\execution.py", line 892, in run_context
-    context.run()
-  File "game/script.rpy", line 40, in script call
-    call chapter_1 from _call_chapter_1
-  File "game/scripts/Character Specific/Amethyst/amethyst_2.rpy", line 11, in script
-    menu:
-  File "game/script.rpy", line 40, in script call
-    call chapter_1 from _call_chapter_1
-  File "game/scripts/Character Specific/Amethyst/amethyst_2.rpy", line 11, in script
-    menu:
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 1626, in execute
-    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\exports.py", line 983, in menu
-    rv = renpy.store.menu(new_items)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\exports.py", line 1217, in display_menu
-    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ui.py", line 295, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 2699, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 3317, in interact_core
-    self.idle_frame(can_block, expensive)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 2775, in idle_frame
-    if self.event_peek():
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 2310, in event_peek
-    self.check_background_screenshot()
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\core.py", line 2158, in check_background_screenshot
-    self.bgscreenshot_surface = renpy.display.draw.screenshot(self.surftree, self.fullscreen_video)
-  File "gldraw.pyx", line 1398, in renpy.gl.gldraw.GLDraw.screenshot
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\pgrender.py", line 174, in flip
-    return copy_surface_unscaled(surf)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\pgrender.py", line 129, in copy_surface
-    rv = surface_unscaled(surf.get_size(), alpha)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\display\pgrender.py", line 118, in surface
-    surf = Surface((width + 4, height + 4), 0, sample)
-  File "src/pygame_sdl2/surface.pyx", line 164, in pygame_sdl2.surface.Surface.__init__
-error: Out of memory
+  File "game/scripts/Character Specific/Pearl/pearl_2.rpy", line 49, in script
+    P "I read about a way to contain your human fluids, using this device."
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 676, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'P' is not defined.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
 Gem Blast 2.0.1
-Sun Oct 06 21:24:21 2019
+Sun Oct 06 21:49:54 2019

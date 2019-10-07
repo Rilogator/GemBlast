@@ -2,6 +2,9 @@ label living_room:
 
     scene bg house day with dissolve
 
+    if amyRoute == 2 and pearlRoute == 2:
+        return
+
     "With yesterday behind you and a clean schedule for the day, what do you do?"
 
     menu:

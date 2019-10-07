@@ -46,11 +46,15 @@ label pearl_2:
     "As you enjoy the feeling of her modest mounds, she produces a condom and applies it the hardening member lovingly cradled in her hands
         with an almost practiced precision."
 
-    p "Quickly, [playerName]!"
+    p "I read about a way to contain your human fluids, using this device."
+
+    "She seems kind of disgusted as she mentions 'fluids'"
+
+    p "Now quickly, [playerName]!"
 
     "Before you know it, Pearl is leaning over the kitchen counter, her round bottom on full display."
 
-    p "There's no time to waste."
+    p "There's no more time to waste."
 
     "She looks back to you with eager eyes, silently giving you permission."
 
@@ -103,7 +107,7 @@ label pearl_2:
 
     p "Hnng...."
 
-    hide pearl2 with dissolve
+    scene bg house day with dissolve
 
     "Chuckling to yourself, you head off to let Pearl recompose herself in private."
 
