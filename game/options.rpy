@@ -45,7 +45,6 @@ Music was created for this project by MET∆TRON.
 
 define build.name = "Gem-Blast"
 
-
 ## Sounds and music ############################################################
 
 ## These three variables control which mixers are shown to the player by

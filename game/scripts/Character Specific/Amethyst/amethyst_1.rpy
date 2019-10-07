@@ -32,7 +32,7 @@ label amethyst_1:
     "That's mostly true."
 
     play music "music/lewd_amy.ogg" loop fadeout 1.0 fadein 1.0
-    
+
     show amethyst happy night
 
     a "Oh! I got an idea."
@@ -218,7 +218,7 @@ label amethyst_1:
     hide amy1 with dissolve
     "With the night finished and your lust sated, you drift off to sleep right in the living room."
 
-    play music "<loop 2.8>music/main_theme.ogg" fadeout 1.0 fadein 1.0
+
     jump living_room
 
 return

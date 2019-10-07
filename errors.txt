@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Character Specific/Amethyst/amethyst_1.rpy", line 96: expected statement.
-    a
-     ^
+File "game/scripts/Story/hubs.rpy", line 4: could not parse statement.
+    play music "<from 2.8>music/main_theme.ogg" loop fadeout fadein 1.0
+                                                                    ^
+
+File "game/scripts/Story/hubs.rpy", line 7: could not parse statement.
+    play music "<from 2.8>music/main_theme.ogg" loop fadeout fadein 1.0
+                                                                    ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Sun Oct 06 21:11:50 2019
+Sun Oct 06 23:38:30 2019

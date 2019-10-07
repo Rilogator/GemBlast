@@ -20,7 +20,7 @@ label pearl_2:
 
     show pearl embarrassed
 
-    play music "music/pearl_amy.ogg" loop fadeout 1.0 fadein 1.0
+    play music "music/lewd_pearl.ogg" loop fadeout 1.0 fadein 1.0
 
     p "Is there not enough excitement for you here?"
     p "If that is the case, I completely understand of course."

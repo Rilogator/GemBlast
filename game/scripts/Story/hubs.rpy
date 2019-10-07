@@ -1,8 +1,7 @@
 label living_room:
 
-
-    if renpy.music.get_playing is not "main_theme.ogg":
-        play music "<loop 2.8>music/main_theme.ogg" fadeout 1.0 fadein 1.0
+    if renpy.music.get_playing() != "<loop 2.8>music/main_theme.ogg":
+        play music "<from 2.8>music/main_theme.ogg" loop fadeout 1.0 fadein 1.0
 
     scene bg house day with dissolve
 

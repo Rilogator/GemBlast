@@ -1,24 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/Story/hubs.rpy", line 4, in script
-    if get_playing != "main_theme.ogg":
-SyntaxError: invalid syntax (game/scripts/Story/hubs.rpy, line 4)
+  File "game/scripts/Story/hubs.rpy", line 3, in script
+    if renpy.music.get_playing() != main_menu_music:
+  File "game/scripts/Story/hubs.rpy", line 3, in <module>
+    if renpy.music.get_playing() != main_menu_music:
+NameError: name 'main_menu_music' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/Story/hubs.rpy", line 4, in script
-    if get_playing != "main_theme.ogg":
+  File "game/scripts/Story/hubs.rpy", line 3, in script
+    if renpy.music.get_playing() != main_menu_music:
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 1830, in execute
     if renpy.python.py_eval(condition):
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2033, in py_eval
-    code = py_compile(code, 'eval')
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 690, in py_compile
-    raise e
-SyntaxError: invalid syntax (game/scripts/Story/hubs.rpy, line 4)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2035, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2028, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scripts/Story/hubs.rpy", line 3, in <module>
+    if renpy.music.get_playing() != main_menu_music:
+NameError: name 'main_menu_music' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
-Gem Blast 2.0.2
-Sun Oct 06 22:15:11 2019
+Gem Blast 2.0.3
+Sun Oct 06 23:41:40 2019

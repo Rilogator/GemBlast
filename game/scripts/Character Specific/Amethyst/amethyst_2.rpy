@@ -130,8 +130,6 @@ label amethyst_2:
 
     a "Though that would be pretty funny."
 
-    play music "<loop 2.8>music/main_theme.ogg" fadeout 1.0 fadein 1.0
-
     jump living_room
 
 return
