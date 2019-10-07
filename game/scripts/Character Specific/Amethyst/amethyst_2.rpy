@@ -18,6 +18,8 @@ label amethyst_2:
 
     "Its enough to make Pearl a little unnerved, and that's when you realize what Amethyst is up to."
 
+    play music "music/lewd_amy.ogg" loop fadeout 1.0 fadein 1.0
+
     m "Are you trying to make Pearl jealous or something?"
 
     a "Nooo~"
@@ -127,6 +129,8 @@ label amethyst_2:
     "As you set yourself straight and Amethsyt walks out into the living room you can hear her mutter to herself."
 
     a "Though that would be pretty funny."
+
+    play music "<loop 2.8>music/main_theme.ogg" fadeout 1.0 fadein 1.0
 
     jump living_room
 

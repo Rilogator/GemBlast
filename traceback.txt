@@ -1,22 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/Character Specific/Pearl/pearl_2.rpy", line 49, in script
-    P "I read about a way to contain your human fluids, using this device."
-Exception: Sayer 'P' is not defined.
+  File "game/scripts/Story/hubs.rpy", line 4, in script
+    if get_playing != "main_theme.ogg":
+SyntaxError: invalid syntax (game/scripts/Story/hubs.rpy, line 4)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/Character Specific/Pearl/pearl_2.rpy", line 49, in script
-    P "I read about a way to contain your human fluids, using this device."
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 676, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 574, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'P' is not defined.
+  File "game/scripts/Story/hubs.rpy", line 4, in script
+    if get_playing != "main_theme.ogg":
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 1830, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2033, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 690, in py_compile
+    raise e
+SyntaxError: invalid syntax (game/scripts/Story/hubs.rpy, line 4)
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
-Gem Blast 2.0.1
-Sun Oct 06 21:49:54 2019
+Gem Blast 2.0.2
+Sun Oct 06 22:15:11 2019

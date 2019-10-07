@@ -79,6 +79,8 @@ label pearl_1:
     "Since you were busy all day and its been ages since you had any private time, you decide its high time to fap."
     "Right as you're getting familiar with yourself, you hear a creak at the door."
 
+    play music "music/lewd_pearl.ogg" loop fadeout 1.0 fadein 1.0
+
     show pearl happy alt night with dissolve
 
     p "Oh I read about this. Since I'm free tonight, I can help you out with that."
