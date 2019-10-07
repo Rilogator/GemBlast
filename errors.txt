@@ -2,13 +2,33 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Story/hubs.rpy", line 4: could not parse statement.
-    play music "<from 2.8>music/main_theme.ogg" loop fadeout fadein 1.0
-                                                                    ^
+File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 105: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    if visor:
+    ^
 
-File "game/scripts/Story/hubs.rpy", line 7: could not parse statement.
-    play music "<from 2.8>music/main_theme.ogg" loop fadeout fadein 1.0
-                                                                    ^
+File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 113: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    if visor:
+    ^
+
+File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 121: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    if visor:
+    ^
+
+File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 129: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    if visor:
+    ^
+
+File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 137: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    if visor:
+    ^
+
+File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 146: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    if visor:
+    ^
+
+File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 153: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
+    if visor:
+    ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Sun Oct 06 23:38:30 2019
+Mon Oct 07 00:43:58 2019
