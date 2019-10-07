@@ -49,7 +49,8 @@ label chapter_2:
 
         p "Hello [playerName]."
 
-        m "Hey Pearl. What's happening?"
+        m "Hey Pearl."
+        m "What's happening?"
 
         show pearl embarrassed alt
 

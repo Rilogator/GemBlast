@@ -51,8 +51,8 @@ label prologue:
 
     p "[playerName]! Oh it is so good to see you!"
 
-    a "Hey player!"
-    a "Who said you could get so tall, dude."
+    a "Hey [playerName]!"
+    a "Who said you could get so tall, dude?"
 
     show amethyst neutral
     show pearl neutral

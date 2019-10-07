@@ -1,5 +1,42 @@
 label pearl_2:
-    scene bg house day
+
+    p "Hello [playerName]."
+
+    m "Hey Pearl."
+    m "What's happening?"
+
+    show pearl embarrassed alt
+
+    p "Oh not much is happening, which is what I'd like to talk to you about."
+
+    "She looks kind of nervous. She glances around to see if Amethyst could be watching. Once she's sure, Pearl turns backs to you."
+
+    show pearl neutral
+
+    p "The monster attacks have ceased as of late."
+    p "Which is a good thing to be sure!"
+    p "However, it makes me wonder..."
+    p "If that's why you left in the first place?"
+
+    show pearl embarrassed
+
+    p "Is there not enough excitement for you here?"
+    p "If that is the case, I completely understand of course."
+
+    menu:
+        "No of course not! I love Beach City.":
+            show pearl happy
+            p "I am so glad to hear that!"
+            "Pearl pulls you into a big hug."
+            p "It makes me so happy having you home again, [playerName]!"
+
+        "Honestly, a little. Beach City is all I've ever known.":
+            p "Oh..."
+
+    show pearl flirty alt
+
+    p "Well I am determined to make things a little more exciting around here!"
+
     "She swiftly takes your hand and pulls it to her chest."
     "The sudden gesture takes you by surprise, though you can't help giving her soft chest a squeeze."
 
@@ -69,5 +106,7 @@ label pearl_2:
     hide pearl2 with dissolve
 
     "Chuckling to yourself, you head off to let Pearl recompose herself in private."
+
+    jump living_room
 
 return

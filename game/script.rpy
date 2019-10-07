@@ -1,6 +1,6 @@
-﻿# Variables
-$ playerName= ""
-$ amyRoute = False
+# Variables
+default pearlRoute = 0
+default amyRoute = 0
 
 # Characters
 define m = Character("[playerName]", what_prefix="{i}", what_suffix="{/i}")
@@ -13,9 +13,6 @@ define a = Character("Amethyst", who_color="#B898CA", what_prefix='"', what_suff
 
 #Effects
 $ flash = Fade(.25, 0, .75, color="#fff")
-
-##transform moveright:
-##    linear 0.5 xpos 0.85
 
 label start:
 

@@ -91,24 +91,19 @@ label chapter_1:
 
     scene bg house day with dissolve
 
-    "The next day:"
+    "The next morning..."
 
-    "As you wake up and rub the sleep from your eyes, you swear you can see Pearl making herself scare."
-    "Was Pearl watching you sleep?"
+    show pearl embarrassed night
+
+    p "Um..."
+
+    show pearl at right with move
+
+    hide pearl with dissolve
+
+    "Was she watching you sleep?"
     "Probably."
-    "With the day's schedule clear for the first time in what feels like forever, what do you do today?"
 
-    menu:
-        "What do you do today?"
-
-        "Work really hard.":
-            "Work work work"
-
-        "Be a lazy shit and watch cartoons all day.":
-            "Feels good to be a coombrain."
-
-
-
-
+    jump living_room
 
 return

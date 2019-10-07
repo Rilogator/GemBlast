@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 18: expected statement.
-    linear 0.5 xpos 0.85
-            ^
-
-File "game/scripts/Story/chapter_1.rpy", line 77: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation.
-    linear 0.5 xpos 0.85
-    ^
+File "game/scripts/Character Specific/Amethyst/amethyst_1.rpy", line 96: expected statement.
+    a
+     ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Sun Oct 06 18:25:17 2019
+Sun Oct 06 21:11:50 2019

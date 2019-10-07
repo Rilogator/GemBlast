@@ -1,20 +1,76 @@
 label pearl_1:
+ # Variables
+    $ sweep = False
+    $ mop = False
+
     scene bg house day
 
     "You set in to cleaning up around the house, which mainly means cleaning up after yourself."
-    "Laundry, sweeping, mopping."
+
+    menu house_cleaning:
+        "Pick a spot to clean."
+
+        "Pick up trash and sweep." if sweep == False:
+            $ sweep = True
+            "You start out by picking up paper plates and plastic cups."
+            "You guys really made a mess all over the house."
+            "Amethyst didn't bother using plates, instead just eating fistfulls of cake and getting crumbs everywhere."
+            "It kind of feels good to do something productive and help out."
+            "They did go through the trouble of organizing a welcome home party after all."
+
+            "Once the garbage is collected, you get a trash bag to put it all in."
+            "The sweeping goes by without any major calamity."
+            "All the dirt and crumbs slowly vanish as you diligently clean the house."
+            "Satisfied with your work, you take out the very full bag and toss it in a dumpster outside."
+            jump house_cleaning
+
+        "Mop the floors." if mop == False:
+            $ mop = True
+            "The bucket and mop are in the same place you remember before you left."
+            "Pearl likes to keep things organized."
+            "You do your best to clean up around the mess and furniture."
+            "A bit of sweat drips off your brow with all the hard work you're doing."
+            "With the floors sparkling, you arrange the couch and the rest of the decor back to its proper place."
+
+            "As the floors dry you take a moment to rest."
+            "The house does look a bit smaller now."
+            "An ottoman that you liked to use while drawing seems too small to sit on comfortably."
+            "The stark lemon-y smell of floor cleaner dissapates as you contemplate how one can never truly go back home."
+            "There's more work to do."
+            jump house_cleaning
+
+        "Finish unpacking." if sweep and mop:
+            "With the house itself looking spick and span, it's time to actually get yourself settled proper."
+
+    "You only came with a duffle bag, so it doesn't take long for you to put away your clothes and knick knacks."
+
+    scene bg house night with dissolve
+
     "As you're close to finishing, Pearl comes in from her patrol."
+
     show pearl embarrassed
+
     p "[playerName]!"
-    p "You didn't have to go through all that trouble!"
-    m "Ah well I had nothing to do today and wanted to return the favor."
+    p "Did you clean up the whole house?"
+
+    "She looks rather surprised more than grateful."
+
+    m "Ah well I had nothing to do today and wanted to return the favor for the awesome party you guys threw."
+
     show pearl embarrassed alt
-    "You can see that she's struggling to look grateful."
+
+    "You can see that she's struggling to say 'thank you'."
+
     "It occurs to you she probably has nothing to do today now that you've finished the chores."
+
     show pearl embarrassed
+
     p "Oh well um, thank you [playerName]."
+
     "That was very nice of you."
+
     hide pearl with dissolve
+
     "You go off and relax a bit after running errands all day."
 
     scene bg house night
@@ -24,8 +80,11 @@ label pearl_1:
     "Right as you're getting familiar with yourself, you hear a creak at the door."
 
     show pearl happy alt night with dissolve
+
     p "Oh I read about this. Since I'm free tonight, I can help you out with that."
+
     show pearl flirty alt night
+
     p "Actually..."
 
     show pearl1 1 with dissolve
@@ -95,7 +154,11 @@ label pearl_1:
     m "I guess you did too good of a job, huh?"
     "You laugh nervously as Pearl gets up to leave."
 
-    scene bg house night
+    scene bg house night with dissolve
     "She walks out of your room to clean herself up, but not before you spot a warm smile."
+
+
+
+    jump living_room
 
 return

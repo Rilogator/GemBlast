@@ -1,5 +1,34 @@
 label amethyst_2:
 
+    "She doesn't bring up the next day, a fact that doesn't bother you too much."
+    "She seems her usual lazy self and doesn't bring up what happened."
+
+    show amethyst flirty with dissolve
+
+    "However, it does seem she's going out of her way to be around you."
+    "Laughing a little more at your jokes, holding onto you and playfully shoving you a little more than usual."
+
+    menu:
+        "How do you respond?"
+
+        "I don't like it.":
+            "It's getting a little annoying."
+        "I encourage it.":
+            "You encourage her, giving a grope or two every now and again."
+
+    "Its enough to make Pearl a little unnerved, and that's when you realize what Amethyst is up to."
+
+    m "Are you trying to make Pearl jealous or something?"
+
+    a "Nooo~"
+    a "What makes you say that?"
+
+    "Amethyst starts laughing in that way she does when she's up to no good."
+    "Having a feeling of where this all leading up to, you wait for an oppurtunity when Pearl is out of the house."
+    "When the coast is clear you call Amethyst over."
+    "She positively bounces over to you, knowing exactly whats in store."
+    "In fact, she takes the lead from you, and pushes you backward onto the bed."
+
     scene amy2 1 with dissolve
 
     "Her big ass eclipses you entire lap, while you're caught by surprise."
@@ -98,5 +127,7 @@ label amethyst_2:
     "As you set yourself straight and Amethsyt walks out into the living room you can hear her mutter to herself."
 
     a "Though that would be pretty funny."
+
+    jump living_room
 
 return
