@@ -82,7 +82,7 @@ label amethyst_1:
     m "Okay."
     m "You're on."
 
-    # Gamer music goes Here
+    play music "music/battle_bastards_2.ogg" loop fadeout 1.0 fadein 1.0
 
     hide amethyst with dissolve
 
@@ -120,6 +120,8 @@ label amethyst_1:
     "She looks thoughtful for a moment."
 
     a "But I bet I can give you something you'd like better."
+
+    play music "music/lewd_amy.ogg" loop fadeout 1.0 fadein 1.0
 
     "You're suspsicious at first, but relent."
     "It's all in good fun anyhow."
