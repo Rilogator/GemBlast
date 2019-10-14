@@ -1,6 +1,6 @@
 label living_room:
 
-    if renpy.music.get_playing() != "<loop 2.8>music/main_theme.ogg":
+    if renpy.music.get_playing() != "<loop 2.8>music/main_theme.ogg" or "<from 2.8>music/main_theme.ogg":
         play music "<from 2.8>music/main_theme.ogg" loop fadeout 1.0 fadein 1.0
 
     scene bg house day with dissolve
@@ -33,7 +33,7 @@ label living_room:
 
 
         # Other stuff
-        #"OwO what's this?" if amyRoute == 2 and pearlRoute == 2:
-        #    ":^)"
+        "That's the end for now!" if amyRoute == 2 and pearlRoute == 2:
+            return
 
 return
