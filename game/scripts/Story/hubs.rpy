@@ -5,9 +5,6 @@ label living_room:
 
     scene bg house day with dissolve
 
-    if amyRoute == 2 and pearlRoute == 2:
-        return
-
     "With yesterday behind you and a clean schedule for the day, what do you do?"
 
     menu:
@@ -33,7 +30,47 @@ label living_room:
 
 
         # Other stuff
-        "That's the end for now!" if amyRoute == 2 and pearlRoute == 2:
-            return
+        "Things seemed to have calmed down." if amyRoute == 2 and pearlRoute == 2:
+            jump second_act
+
+return
+
+
+label second_act:
+
+    #Menu Variables
+    $ pearl = True
+    $ amy = True
+    $ garnet = True
+
+    # Music goes here
+
+    scene bg house day with dissolve
+
+    show garnet
+    show pearl neutral at right
+    show amethyst neutral at left
+    with dissolve
+
+    g "Steben ur pen0r is 2 big"
+
+    menu act2:
+        "Fuck Reset Pearl" if pearl:
+            $ pearl = False
+            jump act2
+
+        "Fuck Rosie Amethyst" if amy:
+            $ amy = False
+            jump act2
+
+        "Fuck Garnet" if garnet:
+            $ garnet = False
+            jump act2
+
+
+
+
+
+
 
 return

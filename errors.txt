@@ -2,33 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 105: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    if visor:
-    ^
+File "game/scripts/Story/hubs.rpy", line 42: expected statement.
+    pearl = True
+          ^
 
-File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 113: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    if visor:
-    ^
+File "game/scripts/Story/hubs.rpy", line 43: expected statement.
+    amy = True
+        ^
 
-File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 121: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    if visor:
-    ^
-
-File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 129: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    if visor:
-    ^
-
-File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 137: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    if visor:
-    ^
-
-File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 146: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    if visor:
-    ^
-
-File "game/scripts/Character Specific/Garnet/garnet_1.rpy", line 153: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation.
-    if visor:
-    ^
+File "game/scripts/Story/hubs.rpy", line 44: expected statement.
+    garnet = True
+           ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Mon Oct 07 00:43:58 2019
+Fri Nov 01 22:47:47 2019
