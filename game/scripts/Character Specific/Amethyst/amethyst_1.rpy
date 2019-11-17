@@ -140,7 +140,7 @@ label amethyst_1:
 
     "Her tits are so large for her size and you can see their obvious heft."
 
-    a "I think you've waited long enough to ger your hands on these."
+    a "I think you've waited long enough to get your hands on these."
 
     "You raise a hand to caress her massive orbs."
     "They feel as firm as they look."
