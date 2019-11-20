@@ -1,5 +1,6 @@
 label chapter_1:
     scene bg house day
+    play music "music/main_theme.ogg" loop fadeout 1.0 fadein 1.0
 
     "Inside, you find a huge banner hang from the ceiling, reading “Welcum Home [playerName]!”"
 
@@ -49,7 +50,7 @@ label chapter_1:
 
         "Jump onto the teleport pad.":
             "At the last second you leap onto the pad."
-            "Just before the energy beam wisks you away to parts unknown, Garnet gives you a knowing smile."            
+            "Just before the energy beam wisks you away to parts unknown, Garnet gives you a knowing smile."
             jump garnet_1
 
         "Decide to keep Pearl and Amethyst company.":

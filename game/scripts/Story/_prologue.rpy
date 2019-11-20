@@ -4,6 +4,7 @@ define flash = Fade(0.1, 0.0, 0.5, color="#fff")
 label prologue:
 
     scene bg sky
+    play music "music/coming_home.mp3" loop fadeout 1.0 fadein 1.0
 
     "Long hours spent on a bus have almost soured the trip, but then you peer through the window, out toward the horizon."
     "The coastline shimmers with a familiar beauty, reinvigorating your mood."
