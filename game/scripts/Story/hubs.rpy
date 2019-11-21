@@ -55,7 +55,7 @@ label second_act:
     g "Steben ur pen0r is 2 big"
 
     menu act2:
-        "Fuck Reset Pearl" if pearl:
+        "Looks like Pearl has a mission for us." if pearl:
             $ pearl = False
             jump act2
 
