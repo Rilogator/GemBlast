@@ -1,5 +1,7 @@
 label pearl_3:
 
+    scene bg house day with dissolve
+
     # Reset Pearl
     # Teleporter glitch messes pearl up and she reboots to her "original programming"
     # The MC spends the day trying to get her to remember things they've done.
@@ -37,7 +39,7 @@ label pearl_3:
     m "I remember you saying that they would be dangerous if they found our home."
 
     p "Yes! Which is why we have to investigate their origin."
-    P "Pick up your supplies and let's head out."
+    p "Pick up your supplies and let's head out."
     p "And make sure not to forget anything!"
 
     m "How long are we going out for?"
@@ -62,6 +64,8 @@ label pearl_3:
 
     "Feeling slightly hurried, you yank the game and charger from the wall promptly step to the center of the pad."
 
+    show pearl happy with dissolve
+
     p "Excellent! Now we can-"
 
     "As the energy from the teleporter charges up with a loud hum, you notice the charger touching the pad."
@@ -69,10 +73,15 @@ label pearl_3:
     "The sudden sparks cause you to drop your console."
     "Apparently loose wires aren't good for highly advanced energy systems."
 
-    "Before anything dangerous happens, the teleport pad shuts off, the signature hum dying down as well."
+    "Before you can react, the two of you are whisked off by the beam."
+    "A sunny sky and green field greet you."
     "Quickly, you step off and take off your backpack."
 
+    scene bg
+
     m "Aw geez, that was scary. What do you think happened, Pearl?"
+
+    show pearl glitch
 
     p "-kzrt-"
 
@@ -86,7 +95,30 @@ label pearl_3:
     m "That's... new."
 
     "It looks like the teleporter resetting also caused Pearl to reset."
+    "You only skimmed that user manual Pearl gave to you."
 
-    
+    "The hologram bounces gently in the air for a moment."
+    "A horizontal ray of light shines out from the center of the clamshell and bathes you in light."
+
+
+    show pearl3 1 with dissolve
+
+    show pearl3 2 with dissolve
+
+    show pearl3 3 with dissolve
+
+    show pearl3 4 with dissolve
+
+    show pearl3 5 with dissolve
+
+    show pearl3 6 with dissolve
+
+    show pearl3 7 with dissolve
+
+    show pearl3 8 with dissolve
+
+    show pearl3 9 with dissolve
+
+
 
 return

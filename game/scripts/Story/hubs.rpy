@@ -57,7 +57,7 @@ label second_act:
     menu act2:
         "Looks like Pearl has a mission for us." if pearl:
             $ pearl = False
-            jump act2
+            jump pearl_3
 
         "Fuck Rosie Amethyst" if amy:
             $ amy = False
