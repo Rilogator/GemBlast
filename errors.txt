@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Story/hubs.rpy", line 42: expected statement.
-    pearl = True
-          ^
-
-File "game/scripts/Story/hubs.rpy", line 43: expected statement.
-    amy = True
-        ^
-
-File "game/scripts/Story/hubs.rpy", line 44: expected statement.
-    garnet = True
-           ^
+File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 115: choice menuitem expects a non-empty block.
+    "Um...":
+            ^
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Fri Nov 01 22:47:47 2019
+Mon Nov 25 07:59:05 2019

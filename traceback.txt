@@ -1,22 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 42, in script
-    
-Exception: Sayer 'P' is not defined.
+  File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 3, in script
+    $ userName
+  File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 3, in <module>
+    $ userName
+NameError: name 'null' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 42, in script
-    
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 676, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 574, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
-Exception: Sayer 'P' is not defined.
+  File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 3, in script
+    $ userName
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 912, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2004, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 3, in <module>
+    $ userName
+NameError: name 'null' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
 Gem Blast 3.0.0
-Sat Nov 23 06:26:09 2019
+Mon Nov 25 08:04:23 2019
