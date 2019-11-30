@@ -92,6 +92,8 @@ label pearl_3:
     "Pearl looks, for lack of a better phrase, 'glitched out'."
     "You get increasingly worried as her form stuggles to maintain itself."
     "Ultimately, her body discorporates."
+    hide pearl glitch with dissolve
+
     "Instead of collapsing into her gem, she instead morphs into holographic clam shell."
 
     m "That's... new."
@@ -122,7 +124,7 @@ label pearl_3:
             $ userName = "Uh " + playerName
 
     p "Hello [userName]!"
-    P "It is absolutely wonderful to meet you!"
+    p "It is absolutely wonderful to meet you!"
 
     m "No way!"
     m "This can't be happening."
@@ -159,6 +161,7 @@ label pearl_3:
     "That's when Pearl tears down your pants with some aggression."
 
     show pearl3 1 with dissolve
+    play music "music/lewd_pearl.ogg" loop fadeout 1.0 fadein 1.0
 
     p "The best way to relieve tension is through sexual activity!"
     p "Wow that sure is a big penis for your height and build!"
@@ -229,7 +232,10 @@ label pearl_3:
     p "Oh."
     p "I surmise that an error with the teleportation procedure caused a reformat in my holochasis while my personality recovered."
 
-    hide pearl 3 with dissolve
+    hide reset pearl
+    hide pearl3 with dissolve
+
+    show pearl neutral
 
     p "I do not need to know the rest, though."
     p "Why are humans so obsessed with leaving their fluids around?"

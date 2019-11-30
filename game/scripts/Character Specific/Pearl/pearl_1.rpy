@@ -48,7 +48,7 @@ label pearl_1:
 
     "As you're close to finishing, Pearl comes in from her patrol."
 
-    show pearl embarrassed
+    show pearl embarrassed night
 
     p "[playerName]!"
     p "Did you clean up the whole house?"

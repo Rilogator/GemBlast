@@ -32,7 +32,7 @@ label prologue:
             "They sound dissapointed but understand your eagerness to get back home."
 
         "Give a polite nod and make small talk.":
-            "You take your time saying high to apparent strangers."
+            "You take your time saying 'hello' to apparent strangers."
             "It never occured to you that you were ever this popular but the proof lies in the many small commotions your appearance causes."
 
     scene bg outside day

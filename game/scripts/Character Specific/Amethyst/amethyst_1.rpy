@@ -4,7 +4,7 @@ label amethyst_1:
     "You spent most of the day watching TV and pigging out on the couch."
     "As if summoned by the display of sheer laziness, Amthyst comes out of her room to check up on you."
 
-    show amethyst neutral with dissolve
+    show amethyst neutral night with dissolve
 
     a "Hey."
 

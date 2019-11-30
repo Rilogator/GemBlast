@@ -364,14 +364,14 @@ screen main_menu():
             yalign 1.0
 
             imagebutton:
-                idle "Promo/dk_icon.png"
-                hover "Promo/dk_icon_active.png"
-                action OpenURL("https://www.patreon.com/Digitalkaiju")
+                idle "Promo/patreon_icon.png"
+                hover "Promo/patreon_icon_active.png"
+                action OpenURL("https://www.patreon.com/ScalebackStudio")
 
-            imagebutton:
-                idle "Promo/rilo_icon.png"
-                hover "Promo/rilo_icon_active.png"
-                action OpenURL("https://rilogator.itch.io/")
+            # imagebutton:
+            #     idle "Promo/rilo_icon.png"
+            #     hover "Promo/rilo_icon_active.png"
+            #     action OpenURL("https://rilogator.itch.io/")
 
             imagebutton:
                 idle "Promo/metatron icon.png"
