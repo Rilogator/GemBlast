@@ -16,7 +16,13 @@ $ flash = Fade(.25, 0, .75, color="#fff")
 
 label start:
 
+<<<<<<< HEAD
     scene bg sky
+=======
+    call screen livingRoom
+
+    scene bg outside night
+>>>>>>> f8838e79e8b22b31925180e0dd0ca39daac3fbcd
 
     "Welcome to our digital adventure!"
     "We're sure you'll have a wonderful time, but first we need to ask some questions."
@@ -48,3 +54,33 @@ label start:
         "We look forward to seeing you next time!"
 
 return
+<<<<<<< HEAD
+=======
+
+screen livingRoom():
+
+    imagemap:
+
+        auto "mapTest/mapTest_%s.png"
+
+        hotspot (649, 474, 141, 141) action Jump('amethyst_1')
+        hotspot (43, 552, 170, 161) action Jump('pearl_1')
+
+
+
+##############################################################
+#############################################################
+
+
+
+
+
+
+
+
+
+
+
+
+return
+>>>>>>> f8838e79e8b22b31925180e0dd0ca39daac3fbcd

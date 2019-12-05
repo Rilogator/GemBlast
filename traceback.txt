@@ -1,15 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
+<<<<<<< HEAD
   File "game/scripts/Story/hubs.rpy", line 60, in script
     menu act2:
   File "game/scripts/Story/hubs.rpy", line 61, in <module>
     "Looks like Pearl has a mission for us." if pearlOption:
 NameError: name 'pearlOption' is not defined
+=======
+  File "game/scripts/Character Specific/Pearl/pearl_1.rpy", line 17, in script
+    p "[playerName]!"
+KeyError: u'playerName'
+>>>>>>> f8838e79e8b22b31925180e0dd0ca39daac3fbcd
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
+<<<<<<< HEAD
   File "game/scripts/Story/hubs.rpy", line 60, in script
     menu act2:
   File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 1626, in execute
@@ -28,3 +35,27 @@ Windows-8-6.2.9200
 Ren'Py 7.3.2.320
 Gem Blast 4.1.0
 Tue Dec 03 02:29:42 2019
+=======
+  File "game/scripts/Character Specific/Pearl/pearl_1.rpy", line 17, in script
+    p "[playerName]!"
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 706, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\exports.py", line 1336, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\character.py", line 1126, in __call__
+    what = what_pattern.replace("[what]", sub(what, translate=True))
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\character.py", line 1115, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\substitutions.py", line 253, in substitute
+    s = formatter.vformat(s, (), kwargs)
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 563, in vformat
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 585, in _vformat
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 646, in get_field
+  File "/home/tom/ab/x64lucid-deps/install/lib/python2.7/string.py", line 605, in get_value
+KeyError: u'playerName'
+
+Windows-8-6.2.9200
+Ren'Py 7.3.2.320
+Beach City Nights 1.1.0
+Sun Aug 18 20:05:37 2019
+>>>>>>> f8838e79e8b22b31925180e0dd0ca39daac3fbcd

@@ -2,7 +2,16 @@
 errors listed below, and try again.
 
 
+<<<<<<< HEAD
 File "game/scripts/Story/hubs.rpy", line 69: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.3.2.320
 Thu Dec 05 06:09:40 2019
+=======
+File "game/script.rpy", line 64: u'jump' is not a keyword argument or valid child for the hotspot statement.
+    hotspot (656,375,140,143) action jump ShowMenu('start')
+                                         ^
+
+Ren'Py Version: Ren'Py 7.3.2.320
+Sun Aug 18 20:00:38 2019
+>>>>>>> f8838e79e8b22b31925180e0dd0ca39daac3fbcd
