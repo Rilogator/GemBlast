@@ -1,26 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 3, in script
-    $ userName
-  File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 3, in <module>
-    $ userName
-NameError: name 'null' is not defined
+  File "game/scripts/Story/hubs.rpy", line 60, in script
+    menu act2:
+  File "game/scripts/Story/hubs.rpy", line 61, in <module>
+    "Looks like Pearl has a mission for us." if pearlOption:
+NameError: name 'pearlOption' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 3, in script
-    $ userName
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 912, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2004, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 3, in <module>
-    $ userName
-NameError: name 'null' is not defined
+  File "game/scripts/Story/hubs.rpy", line 60, in script
+    menu act2:
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\ast.py", line 1626, in execute
+    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\exports.py", line 949, in menu
+    condition = renpy.python.py_eval(condition)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2035, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Rilogator\Documents\Game Dev\RenPy\renpy-7.3.2-sdk\renpy\python.py", line 2028, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scripts/Story/hubs.rpy", line 61, in <module>
+    "Looks like Pearl has a mission for us." if pearlOption:
+NameError: name 'pearlOption' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.3.2.320
-Gem Blast 3.0.0
-Mon Nov 25 08:04:23 2019
+Gem Blast 4.1.0
+Tue Dec 03 02:29:42 2019

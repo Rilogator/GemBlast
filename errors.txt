@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/scripts/Character Specific/Pearl/pearl_3.rpy", line 115: choice menuitem expects a non-empty block.
-    "Um...":
-            ^
+File "game/scripts/Story/hubs.rpy", line 69: indentation mismatch.
 
 Ren'Py Version: Ren'Py 7.3.2.320
-Mon Nov 25 07:59:05 2019
+Thu Dec 05 06:09:40 2019

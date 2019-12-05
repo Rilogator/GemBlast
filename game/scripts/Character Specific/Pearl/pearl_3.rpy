@@ -246,4 +246,6 @@ label pearl_3:
 
     "And with that, you two procede to teleport back home, this time making sure to watch out for errant cables."
 
+    jump living_room2
+
 return

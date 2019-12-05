@@ -44,28 +44,31 @@ label second_act:
     $ garnet = True
 
     # Music goes here
+    label living_room2:
+        scene bg house day with dissolve
 
-    scene bg house day with dissolve
+        show garnet
 
-    show garnet
-    show pearl neutral at right
-    show amethyst neutral at left
-    with dissolve
+        show pearl neutral at right
 
-    # g "Steben ur pen0r is 2 big"
+        show amethyst neutral at left
 
-    menu act2:
-        "Looks like Pearl has a mission for us." if pearl:
-            $ pearl = False
-            jump pearl_3
+        with dissolve
 
-        # "Fuck Rosie Amethyst" if amy:
-        #     $ amy = False
-        #     jump act2
+        # g "Steben ur pen0r is 2 big"
 
-        # "Fuck Garnet" if garnet:
-        #     $ garnet = False
-        #     jump act2
+        menu act2:
+            "Looks like Pearl has a mission for us." if pearl:
+                $ pearl = False
+                jump pearl_3
+
+            # "Fuck Rosie Amethyst" if amy:
+            #     $ amy = False
+            #     jump act2
+
+            "Garnet has a fun day planned." if garnet:
+                $ garnet = False
+                jump garnet_2
 
 
 
