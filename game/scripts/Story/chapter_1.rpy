@@ -94,7 +94,7 @@ label chapter_1:
 
     "The next morning..."
 
-    show pearl embarrassed night
+    show pearl embarrassed
 
     p "Um..."
 

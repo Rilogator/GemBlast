@@ -57,13 +57,13 @@ label pearl_1:
 
     m "Ah well I had nothing to do today and wanted to return the favor for the awesome party you guys threw."
 
-    show pearl embarrassed alt
+    show pearl embarrassed alt night
 
     "You can see that she's struggling to say 'thank you'."
 
     "It occurs to you she probably has nothing to do today now that you've finished the chores."
 
-    show pearl embarrassed
+    show pearl embarrassed night
 
     p "Oh well um, thank you [playerName]."
 

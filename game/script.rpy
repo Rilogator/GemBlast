@@ -43,8 +43,11 @@ label start:
     label epilogue:
 
         "That's all the content for now!"
-        "But maybe you can get a different ending."
-        "Make sure to check out the Patreon link in the main menu for future updates."
-        "We look forward to seeing you next time!"
+        "This concludes all the scenes for 'Gem Blast'."
+        "We want to thank all our supports from Patreon, and everyone who took
+            the time to enjoy our story!"
+        "Consider joining our public discord (found on Patreon) to get updates
+            about our future projects!"
+        "Thank you for playing!"
 
 return
